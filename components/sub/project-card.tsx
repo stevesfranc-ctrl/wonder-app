@@ -22,7 +22,7 @@ export const ProjectCard = ({
       className="relative overflow-hidden rounded-lg shadow-lg border max-w-[300px] border-[#2A0E61]"
     >
       <Image
-        src={`wonder-app/${src}`}
+        src={`${src}`}
         alt={title}
         width={1000}
         height={800}
