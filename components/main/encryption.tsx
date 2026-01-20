@@ -5,6 +5,9 @@ import Image from "next/image";
 
 import { slideInFromTop } from "@/lib/motion";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
+
 export const Encryption = () => {
   return (
     <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full -z-20">
@@ -23,15 +26,17 @@ export const Encryption = () => {
 
       <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
+    
+<Image
+  src={`wonder-app/lock-main.png`}
+  alt="Lock main"
+  width={70}
+  height={70}
+  className="z-10"
+  unoptimized
+/>
           <Image
-            src="/lock-top.png"
-            alt="Lock top"
-            width={50}
-            height={50}
-            className="translate-y-5 transition-all duration-200 group-hover:translate-y-11"
-          />
-          <Image
-            src="/lock-main.png"
+            src={`wonder-app/lock-main.png`}
             alt="Lock main"
             width={70}
             height={70}
@@ -59,7 +64,7 @@ export const Encryption = () => {
           preload="false"
           className="w-full h-auto"
         >
-          <source src="/videos/encryption-bg.webm" type="video/webm" />
+          <source src="wonder-app/videos/encryption-bg.webm" type="video/webm" />
         </video>
       </div>
     </div>

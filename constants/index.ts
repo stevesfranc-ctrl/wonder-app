@@ -100,37 +100,37 @@ export const FRONTEND_SKILL = [
 
   {
     skill_name: "Material UI",
-    image: "mui.png",
+    image: "wonder-app/mui.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "React",
-    image: "react.png",
+    image: "wonder-app/react.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Redux",
-    image: "redux.png",
+    image: "wonder-app/redux.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "React Query",
-    image: "reactquery.png",
+    image: "wonder-app/reactquery.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "TypeScript",
-    image: "ts.png",
+    image: "wonder-app/ts.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Next.js 14",
-    image: "next.png",
+    image: "wonder-app/next.png",
     width: 80,
     height: 80,
   },

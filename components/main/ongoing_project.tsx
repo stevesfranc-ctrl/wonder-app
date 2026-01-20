@@ -17,7 +17,7 @@ export const MyProjects = () => {
             <div>
                 <Image
                     alt="Logo"
-                    src={`/skills/app.png`}
+                    src={`wonder-app/skills/app.png`}
                     draggable={false}
                     width={600}
                     height={900}
