@@ -60,9 +60,9 @@ export const Entreprises = () => {
                 style={{ "--count": ENTREPRISES.length, "--radius": "12rem" } as React.CSSProperties}
             >
                 {ENTREPRISES.map((elmt, i) => (
-                    <div className="flex gap-3">
+                    <div className="flex gap-3" key={i}>
                         <Link
-                            key={i}
+                            
                             href={elmt.link}
                             className=" before:absolute before:w-[.1px] before:bg-slate-700  before:left-8 before:top-8 "
                             
