@@ -16,7 +16,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -25,17 +24,20 @@ jobs:
           node-version: "20"
           cache: "npm"
 
-      - name: Install
+      - name: "Install"
         run: npm ci
 
-      - name: Build (static export)
+      - name: "Build (static export)"
         run: npm run build
 
-      - name: SPA fallback
+      - name: "Disable Jekyll"
+        run: touch out/.nojekyll
+
+      - name: "SPA fallback"
         run: |
           if [ -f out/index.html ]; then cp out/index.html out/404.html; fi
 
-      - name: Upload artifact
+      - name: "Upload artifact"
         uses: actions/upload-pages-artifact@v3
         with:
           path: out
@@ -45,7 +47,8 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-
     steps:
-      - name: Deploy
+      - name: "Deploy"
         uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
