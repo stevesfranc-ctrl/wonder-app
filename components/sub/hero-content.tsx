@@ -23,8 +23,9 @@ export const HeroContent = () => {
         <span
           className="text-base font-normal tracking-tight text-zinc-400  text-pretty"
         >
-          I'm a passionate Full Stack Software Engineer specializing in web, mobile, and software development.
-          I design and build efficient, scalable, and user-centric applications — from dynamic front-ends to robust back-end architectures.
+            {"I'm a passionate Full Stack Software Engineer specializing in web, mobile, and software development."}
+          {"I design and build efficient, scalable, and user-centric applications — from dynamic front-ends to robust back-end architectures."}
+      
         </span>
       </div>
 
