@@ -35,7 +35,7 @@ export const Skills = () => {
         {BACKEND_SKILL.map((skill, i) => (
           <SkillDataProvider
             key={skill.skill_name}
-            src={skill.image}
+            src={'/' + skill.image}
             name={skill.skill_name}
             width={skill.width}
             height={skill.height}
@@ -47,7 +47,7 @@ export const Skills = () => {
         {FULLSTACK_SKILL.map((skill, i) => (
           <SkillDataProvider
             key={skill.skill_name}
-            src={skill.image}
+            src={'/' + skill.image}
             name={skill.skill_name}
             width={skill.width}
             height={skill.height}
