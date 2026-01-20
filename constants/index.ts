@@ -12,67 +12,67 @@ import {
 export const SKILL_DATA = [
   {
     skill_name: "HTML",
-    image: "/wonder-app/html.png",
+    image: "/wonder-app/skills/html.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "CSS",
-    image: "/wonder-app/css.png",
+    image: "/wonder-app/skills/css.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "JavaScript",
-    image: "/wonder-app/js.png",
+    image: "/wonder-app/skills/js.png",
     width: 65,
     height: 65,
   },
   {
     skill_name: "Tailwind CSS",
-    image: "/wonder-app/tailwind.png",
+    image: "/wonder-app/skills/tailwind.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "ANGULAR",
-    image: "/wonder-app/angular.png",
+    image: "/wonder-app/skills/angular.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "React",
-    image: "/wonder-app/react.png",
+    image: "/wonder-app/skills/react.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Nuxtjs",
-    image: "/wonder-app/nuxt.png",
+    image: "/wonder-app/skills/nuxt.png",
     width: 90,
     height: 90,
   },
   {
     skill_name: "TypeScript",
-    image: "/wonder-app/ts.png",
+    image: "/wonder-app/skills/ts.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Next.js 14",
-    image: "/wonder-app/next.png",
+    image: "/wonder-app/skills/next.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Node.js",
-    image: "/wonder-app/node.png",
+    image: "/wonder-app/skills/node.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "MongoDB",
-    image: "/wonder-app/mongodb.png",
+    image: "/wonder-app/skills/mongodb.png",
     width: 40,
     height: 40,
   },
@@ -100,37 +100,37 @@ export const FRONTEND_SKILL = [
 
   {
     skill_name: "Material UI",
-    image: "/wonder-app/mui.png",
+    image: "/wonder-app/skills/mui.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "React",
-    image: "/wonder-app/react.png",
+    image: "/wonder-app/skills/react.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Redux",
-    image: "/wonder-app/redux.png",
+    image: "/wonder-app/skills/redux.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "React Query",
-    image: "/wonder-app/reactquery.png",
+    image: "/wonder-app/skills/reactquery.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "TypeScript",
-    image: "/wonder-app/ts.png",
+    image: "/wonder-app/skills/ts.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Next.js 14",
-    image: "/wonder-app/next.png",
+    image: "/wonder-app/skills/next.png",
     width: 80,
     height: 80,
   },
@@ -139,44 +139,44 @@ export const FRONTEND_SKILL = [
 export const BACKEND_SKILL = [
   {
     skill_name: "Sprint Boot",
-    image: "/wonder-app/sprintboot.png",
+    image: "/wonder-app/skills/sprintboot.png",
     width: 80,
     height: 80,
   },
 
   {
     skill_name: "Node.js",
-    image: "/wonder-app/node.png",
+    image: "/wonder-app/skills/node.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Express.js",
-    image: "/wonder-app/express.png",
+    image: "/wonder-app/skills/express.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "MongoDB",
-    image: "mongodb.png",
+    image: "/wonder-app/skills/mongodb.png",
     width: 40,
     height: 40,
   },
   {
     skill_name: "Firebase",
-    image: "/wonder-app/firebase.png",
+    image: "/wonder-app/skills/firebase.png",
     width: 55,
     height: 55,
   },
   {
     skill_name: "PostgreSQL",
-    image: "/wonder-app/postgresql.png",
+    image: "/wonder-app/skills/postgresql.png",
     width: 70,
     height: 70,
   },
   {
     skill_name: "MySQL",
-    image: "mysql.png",
+    image: "/wonder-app/skills/mysql.png",
     width: 70,
     height: 70,
   },
@@ -186,32 +186,32 @@ export const BACKEND_SKILL = [
 export const FULLSTACK_SKILL = [
   {
     skill_name: "React Native",
-    image: "/reactnative.png",
+    image: "/wonder-app/skills/reactnative.png",
     width: 70,
     height: 70,
   },
   {
     skill_name: "Flutter",
-    image: "/flutter.png",
+    image: "/wonder-app/skills/flutter.png",
     width: 180,
     height: 180,
   },
   {
     skill_name: "Ionic",
-    image: "/ionic.png",
+    image: "/wonder-app/skills/ionic.png",
     width: 70,
     height: 70,
   },
   {
     skill_name: "Docker",
-    image: "/docker.png",
+    image: "/wonder-app/skills/docker.png",
     width: 70,
     height: 70,
   },
 
   {
     skill_name: "Figma",
-    image: "/figma.png",
+    image: "/wonder-app/skills/figma.png",
     width: 50,
     height: 50,
   }
@@ -220,7 +220,7 @@ export const FULLSTACK_SKILL = [
 export const OTHER_SKILL = [
   {
     skill_name: "Go",
-    image: "/go.png",
+    image: "/wonder-app/skills/go.png",
     width: 60,
     height: 60,
   },
@@ -229,7 +229,7 @@ export const OTHER_SKILL = [
 export const APP = [
   {
     skill_name: "Application",
-    image: "/app.png",
+    image: "/wonder-app/skills/app.png",
     width: 100,
     height: 90,
   },
