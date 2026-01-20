@@ -240,28 +240,28 @@ export const PROJECTS = [
     title: "Cosna Afrique",
     description:
       'Transférez de l\'argent instantanément dans le portefeuille Mobile Money de votre bénéficiaire.',
-    image: "/projects/cosna.jpeg",
+    image: "/wonder-app/projects/cosna.jpeg",
     link: "https://cosna-afrique.com",
   },
   {
     title: "Loov Solutions",
     description:
       'Ouvrez la porte à des possibilités de paiement infinies pour tous – Entreprises, Particuliers, PME, Marchés émergents et Startups!',
-    image: "/projects/loov.jpeg",
+    image: "/wonder-app/projects/loov.jpeg",
     link: "https://loov-solutions.com/",
   },
   {
     title: "Sangal Money",
     description:
       'Retirez de l\'argent depuis votre carte bancaire où que vous soyez dans le monde, et transférez-le directement vers votre compte mobile money en Afrique (au Sénégal, en Côte d\'Ivoire, au Bénin)',
-    image: "/projects/sangal.png",
+    image: "/wonder-app/projects/sangal.png",
     link: "https://app.sangalmoney.com/",
   },
   {
     title: "AgripNkap",
     description:
       'Accédez à une assistance agricolte personnalisée, les conseils experts et les dernières actualitées agricoltes en exclusivité pour le Cameroun.',
-    image: "/projects/agrinkap.jpg",
+    image: "/wonder-app/projects/agrinkap.jpg",
     link: "https://play.google.com/store/apps/details?id=com.agrinkap.com&hl=fr",
   }
 ] as const;
