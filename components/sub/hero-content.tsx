@@ -9,7 +9,7 @@ export const HeroContent = () => {
         className=" text-bold text-white  max-w-8xl h-auto mx-ato text-center"
       >
         <span className="font-heading text-4xl font-bold tracking-tight text-primary-600 sm:leading-none lg:text-6xl text-zinc-400 ">
-          👋 Hi, I'm Steves
+          👋 Hi, I&apos;m Steves
         </span>
       </div>
 
