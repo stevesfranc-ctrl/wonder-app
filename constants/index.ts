@@ -12,61 +12,61 @@ import {
 export const SKILL_DATA = [
   {
     skill_name: "HTML",
-    image: "html.png",
+    image: "/html.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "CSS",
-    image: "css.png",
+    image: "/css.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "JavaScript",
-    image: "js.png",
+    image: "/js.png",
     width: 65,
     height: 65,
   },
   {
     skill_name: "Tailwind CSS",
-    image: "tailwind.png",
+    image: "/tailwind.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "ANGULAR",
-    image: "angular.png",
+    image: "/angular.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "React",
-    image: "react.png",
+    image: "/react.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Nuxtjs",
-    image: "nuxt.png",
+    image: "/nuxt.png",
     width: 90,
     height: 90,
   },
   {
     skill_name: "TypeScript",
-    image: "ts.png",
+    image: "/ts.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Next.js 14",
-    image: "next.png",
+    image: "/next.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Node.js",
-    image: "node.png",
+    image: "/node.png",
     width: 80,
     height: 80,
   },
@@ -186,32 +186,32 @@ export const BACKEND_SKILL = [
 export const FULLSTACK_SKILL = [
   {
     skill_name: "React Native",
-    image: "reactnative.png",
+    image: "/reactnative.png",
     width: 70,
     height: 70,
   },
   {
     skill_name: "Flutter",
-    image: "flutter.png",
+    image: "/flutter.png",
     width: 180,
     height: 180,
   },
   {
     skill_name: "Ionic",
-    image: "ionic.png",
+    image: "/ionic.png",
     width: 70,
     height: 70,
   },
   {
     skill_name: "Docker",
-    image: "docker.png",
+    image: "/docker.png",
     width: 70,
     height: 70,
   },
 
   {
     skill_name: "Figma",
-    image: "figma.png",
+    image: "/figma.png",
     width: 50,
     height: 50,
   }
@@ -220,7 +220,7 @@ export const FULLSTACK_SKILL = [
 export const OTHER_SKILL = [
   {
     skill_name: "Go",
-    image: "go.png",
+    image: "/go.png",
     width: 60,
     height: 60,
   },
@@ -229,7 +229,7 @@ export const OTHER_SKILL = [
 export const APP = [
   {
     skill_name: "Application",
-    image: "app.png",
+    image: "/app.png",
     width: 100,
     height: 90,
   },
@@ -269,31 +269,31 @@ export const PROJECTS = [
 export const ENTREPRISES = [
   {
     title: "Mounir Holding",
-    image: "mounir.jpeg",
+    image: "/mounir.jpeg",
     link: "https://www.linkedin.com/company/isdg-sa/?originalSubdomain=lu"
   },
   {
     title: "ISDG-SARL",
-    image: "isdg.jpeg",
+    image: "/isdg.jpeg",
     link: 'https://www.linkedin.com/company/isdg-sarl?originalSubdomain=cm'
   },
   {
     title: "Loov",
-    image: "loov.jpeg",
+    image: "/loov.jpeg",
     link: 'https://loov-solutions.com/'
   },
   {
     title: "Nebulageek",
-    image: "nebulageek.png",
+    image: "/nebulageek.png",
     link: 'https://nebulageek.com/'
   }, {
     title: "Drimzwallet",
-    image: "drimzwallet.png",
+    image: "/drimzwallet.png",
     link: 'https://drimzwallet.com/'
   },
   {
     title: "Drimzwallet",
-    image: "drimzwallet.png",
+    image: "/drimzwallet.png",
     link: 'https://drimzwallet.com/'
   }
 ];
