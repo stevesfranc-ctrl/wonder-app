@@ -28,7 +28,7 @@ export const Encryption = () => {
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
     
 <Image
-  src={`wonder-app/lock-main.png`}
+  src={`/wonder-app/lock-main.png`}
   alt="Lock main"
   width={70}
   height={70}
@@ -36,7 +36,7 @@ export const Encryption = () => {
   unoptimized
 />
           <Image
-            src={`wonder-app/lock-main.png`}
+            src={`/wonder-app/lock-main.png`}
             alt="Lock main"
             width={70}
             height={70}
@@ -64,7 +64,7 @@ export const Encryption = () => {
           preload="false"
           className="w-full h-auto"
         >
-          <source src="wonder-app/videos/encryption-bg.webm" type="video/webm" />
+          <source src="/wonder-app/videos/encryption-bg.webm" type="video/webm" />
         </video>
       </div>
     </div>
