@@ -10,12 +10,13 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -27,11 +28,8 @@ jobs:
       - name: Install
         run: npm ci
 
-      - name: Build
+      - name: Build (static export)
         run: npm run build
-
-      - name: Export static
-        run: npx --yes next export
 
       - name: SPA fallback
         run: |
@@ -47,5 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
+
     steps:
-      - uses: actions/deploy-pages@v4
+      - name: Deploy
+        uses: actions/deploy-pages@v4
