@@ -52,7 +52,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      # ✅ Slack notification (success/failure)
       - name: Notify Slack
         if: always()
         uses: 8398a7/action-slack@v3
