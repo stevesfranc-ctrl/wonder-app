@@ -395,4 +395,3 @@ export const roboto = Roboto({
   style: ["normal", "italic"],
   display: "swap",
 });
-export const SITE_NAME = "Wonder Dev";
