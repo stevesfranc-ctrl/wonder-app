@@ -13,12 +13,15 @@ export const Skills = () => {
   return (
     <section
       id="skills"
-      style={{ transform: "scale(0.9)" }}
-      className="flex flex-col items-center justify-center gap-3 h-auto relative overflow-hidden"
+      style={{  }}
+      className="flex flex-col  gap-3 h-auto relative "
     >
       <SkillText />
+      
+  
 
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+
+      {/* <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {SKILL_DATA.map((skill, i) => (
           <SkillDataProvider
             key={skill.skill_name}
@@ -29,9 +32,9 @@ export const Skills = () => {
             index={i}
           />
         ))}
-      </div>
+      </div> */}
       
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      {/* <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {BACKEND_SKILL.map((skill, i) => (
           <SkillDataProvider
             key={skill.skill_name}
@@ -42,8 +45,8 @@ export const Skills = () => {
             index={i}
           />
         ))}
-      </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      </div> */}
+      {/* <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {FULLSTACK_SKILL.map((skill, i) => (
           <SkillDataProvider
             key={skill.skill_name}
@@ -54,7 +57,7 @@ export const Skills = () => {
             index={i}
           />
         ))}
-      </div>
+      </div> */}
   
 
       {/* <div className="w-full h-full absolute">

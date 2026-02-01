@@ -6,16 +6,34 @@ export const Footer = () => {
   return (
 
 
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg bg-white py-10">
-      <ul className="mt-12 flex gap-16 max-md:justify-between">
-  <li><a href="https://github.com/sanity-io" aria-label="GitHub"><svg className="h-21 w-21" viewBox="0 0 100 100"><use href="/iconophor/icon?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F3do82whm%2Fnext%2F229b0a8937b71b8209a8b498a737710c8c2473da-100x100.svg&amp;symbol=true&amp;replace-colors=currentColor#icon"></use></svg></a></li>
-  <li><a href="https://www.youtube.com/@sanity_io" aria-label="YouTube">YouTube Icon</a></li>
-  <li><a href="https://www.linkedin.com/company/sanity-io" aria-label="LinkedIn">LinkedIn Icon</a></li>
-  <li><a href="httpNs://bsky.app/profile/sanity.io" aria-label="BlueSky">BlueSky Icon</a></li>
-  <li><a href="https://x.com/sanity_io" aria-label="X (Twitter)">Twitter Icon</a></li>
-  <li><a href="/feed/rss" aria-label="RSS">RSS Icon</a></li>
-  <li><a href="https://snty.link/community" aria-label="Discord">Discord Icon</a></li>
-</ul>
+    <div className="w-full h-full text-gray-200 shadow-lg py-1  border border-white/10 rounded-lg
+    bg-slate-9500 my-10 flex  flex-col px-6">
+
+        <div className="mt-8 text-start space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
+          <p>
+            <span className="font-normal text-gray-400 font-euclid">© {new Date().getFullYear()} Steves Franc. Tous droits réservés.</span>,
+           </p> 
+        </div>
+
+      <ul className="my-6 flex gap-16">
+        <li><a href="https://www.youtube.com/@sanity_io" className="font-normal text-gray-400" aria-label="YouTube">YouTube Icon</a></li>
+        <li><a href="https://www.linkedin.com/in/franc-steves-b99806232/" className="font-normal text-gray-400" aria-label="LinkedIn">LinkedIn</a></li>
+        <li><a href="httpNs://bsky.app/profile/sanity.io" className="font-normal text-gray-400" aria-label="BlueSky">BlueSky Icon</a></li>
+        <li><a href="https://x.com/sanity_io" className="font-normal text-gray-400" aria-label="X (Twitter)">Twitter Icon</a></li>
+        <li><a href="/feed/rss" className="font-normal text-gray-400" aria-label="RSS">RSS Icon</a></li>
+        <li><a href="https://snty.link/community" className="font-normal text-gray-400" aria-label="Discord">Discord Icon</a></li>
+      </ul>
+
+        <div
+    className="
+      pointer-events-none
+      absolute inset-0
+      bg-[linear-gradient(to_right,rgba(255,255,255,0.04)_1px,transparent_1px),
+          linear-gradient(to_bottom,rgba(255,255,255,0.04)_1px,transparent_1px)]
+      bg-[size:48px_48px]
+      opacity-30
+    "
+  />
 
       {/* <div classNameName="w-full flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
@@ -45,6 +63,9 @@ export const Footer = () => {
           &copy; John Doe {new Date().getFullYear()} Inc. All rights reserved.
         </div>
       </div> */}
+
+
+ 
     </div>
   );
 };

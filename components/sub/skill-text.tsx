@@ -11,19 +11,32 @@ import {
 
 export const SkillText = () => {
   return (
-    <div className="w-full h-auto flex flex-col items-center justify-center">
-     
-      <div
-         className="text-[40px] text-white font-medium mt-[10px] text-center mb-[15px]"
+    <div className="w-full h-auto flex flex-col ">
+      <h1
+        className="
+    mt-5
+    font-heading
+    text-4xl
+    font-bold
+    tracking-tight
+    text-zinc-800
+    dark:text-zinc-100
+    sm:text-5xl
+    leading-tight
+  "
       >
-        Making apps with modern technologies.
-      </div>
+        <span className="developer text-4xl font-semibold">
+          Projets et Collaborations
+        </span>
+        .
+      </h1>
 
-      <div
-         className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
-      >
-        Never miss a task, deadline or idea.
-      </div>
+      <p className="mt-8 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
+        J'ai contribué à des projets de tailles variées dans le secteur de la fintech,
+        notamment le développement d'API, en respectant les bonnes pratiques et en définissant
+        des infrastructures scalables et robustes.
+      </p>
+
     </div>
   );
 };

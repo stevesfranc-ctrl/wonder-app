@@ -1,3 +1,4 @@
+import ContactSection from "@/components/main/contact";
 import { Embition } from "@/components/main/embition";
 import { Entreprises } from "@/components/main/entreprises";
 import { Footer } from "@/components/main/footer";
@@ -11,9 +12,10 @@ export default function Home() {
       <div className="flex flex-col  m-auto">
         <Hero />
         <Skills />
-        <Embition />
-        <Entreprises />
+        {/* <Embition /> */}
+        {/* <Entreprises /> */}
         <Projects />
+        <ContactSection />
         <Footer />
       </div>
     </main>

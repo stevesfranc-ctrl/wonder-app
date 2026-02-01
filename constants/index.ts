@@ -263,6 +263,13 @@ export const PROJECTS = [
       'Accédez à une assistance agricolte personnalisée, les conseils experts et les dernières actualitées agricoltes en exclusivité pour le Cameroun.',
     image: "/wonder-app/projects/agrinkap.jpg",
     link: "https://play.google.com/store/apps/details?id=com.agrinkap.com&hl=fr",
+  },
+    {
+    title: "Drimzwallet",
+    description:
+      'Drimz Wallet améliore votre expérience financière grâce à une plateforme numérique intuitive pour envoyer, recevoir et gérer vos finances personnelles ou professionnelles.',
+    image: "/wonder-app/projects/dreamz.png",
+    link: "https://drimzwallet.com",
   }
 ] as const;
 
@@ -363,15 +370,15 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
-    title: "About me",
+    title: "A propos",
     link: "#about-me",
   },
   {
-    title: "Skills",
+    title: "Collaboration",
     link: "#skills",
   },
   {
-    title: "Projects",
+    title: "Mes travaux",
     link: "#projects",
   },
 ] as const;
