@@ -14,7 +14,7 @@ export const Navbar = () => {
       <div className=" h-full flex items-center justify-between max-w-full md:max-w-6xl mx-auto flex-1 ">
         {/* Logo + Name */}
         <Link
-          href="/#about-me"
+          href="/"
           className="flex items-center p-0"
         >
           <div className="w-[50px] h-[50px] rounded-full border-2 border-white md:-mr-[-30px] ml-0">

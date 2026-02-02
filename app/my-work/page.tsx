@@ -2,15 +2,15 @@ import ContactSection from "@/components/main/contact";
 import { Embition } from "@/components/main/embition";
 import { Footer } from "@/components/main/footer";
 import { MyProjects } from "@/components/main/ongoing_project";
-import { StarsCanvas } from "@/components/main/star-background";
+import DailyToolsSection from "@/components/main/Tools";
 import { poppins } from "@/constants";
 import { cn } from "@/lib/utils";
 
 export default function MyWorkPage() {
   return (
     <main className=" h-auto w-full ">
-      <div className="flex flex-col  mt-10 ">
-      
+      <div className="flex flex-col  mt-10 relative">
+
         <div id="about-me" className="relative flex-col md:flex-row !h-full w-full flex py-20 gap-10 md:gap-20 items-center justify-center overflow-hidden">
           <div className=" text-white flex-1">
             <div className="flex h-full w-full flex-col items-start justify-center mt-[20px] z-[20]">
@@ -36,9 +36,9 @@ export default function MyWorkPage() {
               </h1>
 
               <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
-                <p  className={cn(
-                                            poppins.className
-                                        )}>
+                <p className={cn(
+                  poppins.className
+                )}>
                   C’est une plateforme qui transforme vos déplacements quotidiens en opportunités concrètes. Grâce à la technologie et l’innovation, chaque trajet devient une expérience enrichissante, rapide et sécurisée.
                 </p>
                 <div>
@@ -68,8 +68,6 @@ export default function MyWorkPage() {
               </div>
             </div>
 
-
-
             <div
               className="
               pointer-events-none
@@ -83,7 +81,6 @@ export default function MyWorkPage() {
               opacity-30
             "
             />
-
           </div>
           <div className=" mt-auto pt-15 h-full text-lg leading-relaxed flex-1  flex flex-col items-center justify-center">
 
@@ -95,81 +92,27 @@ export default function MyWorkPage() {
               />
             </div>
           </div>
+
+
         </div>
 
-       <div className="w-full  my-20">
-         <MyProjects />
-       </div>
+        <div className="w-full  mt-20 ">
 
-        {/* <div className="w-full  flex  gap-4">
-
-          <div className="w-[400px] h-[400px] overflow-hidden">
-            <iframe src="https://kerima-app.vercel.app" width="100%" height="100%"></iframe>
-
-          </div>
-
-          <div>
-            <div
-              className=" text-bold text-white "
-            >
-
-              <h1
-                className="
-                    mt-5
-                    font-heading
-                    text-4xl
-                    font-bold
-                    tracking-tight
-                    text-zinc-800
-                    dark:text-zinc-100
-                    sm:text-5xl
-                    leading-tight
-                  "
-              >
-                <span className="developer md:leading-loose leading-normal">
-                  Kerima
-                </span>{" "}
-              </h1>
-            </div>
-
-            <div className="max-w-3xl h-auto mx-autno mt-8 flex flex-col gap-3">
-              <p
-                className={cn(
-                  "text-base font-light tracking-tight text-zinc-400  text-pretty sm:leading-[1.8rem]",
-                  poppins.className
-                )}
-              >
-                c’est la promesse d’un futur où
-                le paiement sans contact n’est plus un luxe,
-                mais une réalité accessible en Afrique.
-              </p>
-
-              <p className="text-base font-light tracking-tight text-zinc-400  text-pretty sm:leading-[1.8rem]">
-                🎯 Objective
-
-                To build an intelligent ecosystem where a simple gesture — such as tapping a card or device — can trigger secure and instant actions:
-
-                Quick access to critical information (health, identity, permissions, etc.)
-
-                Process automation for access control, validation, and registration
-
-                Enhanced user experience across public services, healthcare, education, and enterprises
-              </p>
-            </div>
-          </div>
+          {
+            [1].map((project, index) => (
+              <MyProjects />
+            ))
+          }
+        </div>
 
 
-        </div> */}
-
-
-        {/* <StarsCanvas /> */}
+        <DailyToolsSection />
 
         <ContactSection />
 
       </div>
 
       <Footer />
-
     </main>
   );
 }

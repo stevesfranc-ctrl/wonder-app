@@ -22,13 +22,11 @@ export const ProjectCard = ({
       className="relative overflow-hidden rounded-xl shadow-lg border max-w-[600px]"
     >
       <div className="bg-zinc-200 dark:bg-zinc-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 h-full">
-        <div className="h-48 flex items-center justify-center bg-white text-white font-bold">
-          <Image
+        <div className="h-40 flex items-center justify-center bg-white text-white font-bold">
+          <img
             src={`${src}`}
             alt={title}
-            width={1000}
-            height={100}
-            className="w-full object-contain"
+            className="w-full h-full object-cover bg-center"
           />
         </div>
         <div className="p-5">
@@ -36,7 +34,6 @@ export const ProjectCard = ({
           </p>
           <h1
             className="
-          mt-20
           font-heading
           text-4xl
           font-bold

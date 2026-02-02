@@ -270,6 +270,13 @@ export const PROJECTS = [
       'Drimz Wallet améliore votre expérience financière grâce à une plateforme numérique intuitive pour envoyer, recevoir et gérer vos finances personnelles ou professionnelles.',
     image: "/wonder-app/projects/dreamz.png",
     link: "https://drimzwallet.com",
+  },
+      {
+    title: "NebulaGeek",
+    description:
+      'Nebulageek Inc est une entreprise innovante spécialisée dans le développement web, l\'application mobile, la digitalisation et les services cloud sécurisés.',
+    image: "/wonder-app/projects/cropped-NebulaGeek.png",
+    link: "https://nebulageek.com/",
   }
 ] as const;
 
@@ -301,6 +308,11 @@ export const ENTREPRISES = [
   {
     title: "Drimzwallet",
     image: "/drimzwallet.png",
+    link: 'https://drimzwallet.com/'
+  },
+    {
+    title: "NebulaGeek",
+    image: "/cropped-NebulaGeek.png",
     link: 'https://drimzwallet.com/'
   }
 ];
@@ -371,11 +383,11 @@ export const FOOTER_DATA = [
 export const NAV_LINKS = [
   {
     title: "A propos",
-    link: "/",
+    link: "/about-me",
   },
   {
     title: "Collaboration",
-    link: "#skills",
+    link: "/#skills",
   },
   {
     title: "Mes travaux",
