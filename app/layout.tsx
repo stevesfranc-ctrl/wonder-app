@@ -25,7 +25,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
     <html lang="en">
       <body
         className={cn(
-          "bg-[#030014] overflow-y-scroll overflow-x-hidden w-full max-w-6xl mx-auto px-4 flex-1 sm:px-6 lg:px-8 !scrollbar-hide",
+          "bg-[#030014] overflow-y-scroll overflow-x-hidden w-full max-w-6xl mx-auto px-4  md:max-w-6xl flex-1  !scrollbar-hide",
           inter.className,
           euclid.variable,
           kugile.variable
@@ -48,7 +48,6 @@ export default function RootLayout({ children }: PropsWithChildren) {
         />
         <Navbar />
         {children}
-        {/* <Footer /> */}
       </body>
     </html>
   );

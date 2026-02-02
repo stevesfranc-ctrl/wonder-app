@@ -2,7 +2,7 @@
 
 export const HeroContent = () => {
   return (
-    <div className="flex h-full w-full flex-col items-start justify-center mt-[40px] z-[20]">
+    <div className="flex h-full w-full flex-col items-start justify-center mt-[20px] z-[20]">
       <h1
         className="
           mt-5
@@ -16,7 +16,7 @@ export const HeroContent = () => {
           leading-tight
         "
       >
-        <span className="developer leading-loose">
+        <span className="developer md:leading-loose leading-normal">
           Développeur Web Fullstack
         </span>{" "}
         et{" "}

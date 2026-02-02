@@ -26,15 +26,15 @@ export const Encryption = () => {
 
       <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
-    
-<Image
-  src={`/wonder-app/lock-main.png`}
-  alt="Lock main"
-  width={70}
-  height={70}
-  className="z-10"
-  unoptimized
-/>
+
+          <Image
+            src={`/wonder-app/lock-main.png`}
+            alt="Lock main"
+            width={70}
+            height={70}
+            className="z-10"
+            unoptimized
+          />
           <Image
             src={`/wonder-app/lock-main.png`}
             alt="Lock main"

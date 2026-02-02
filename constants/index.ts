@@ -371,7 +371,7 @@ export const FOOTER_DATA = [
 export const NAV_LINKS = [
   {
     title: "A propos",
-    link: "#about-me",
+    link: "/",
   },
   {
     title: "Collaboration",
@@ -379,7 +379,7 @@ export const NAV_LINKS = [
   },
   {
     title: "Mes travaux",
-    link: "#projects",
+    link: "/my-work",
   },
 ] as const;
 

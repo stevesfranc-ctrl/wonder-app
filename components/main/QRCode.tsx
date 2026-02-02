@@ -12,7 +12,7 @@ export default function MyQRCode() {
         p-3
       ">
       <SVG
-        text="https://kerima-app.vercel.app/"
+        text="http://localhost:3000/wonder-app/steves_franc_t_cv.pdf"
         
         options={{
           margin: 2,

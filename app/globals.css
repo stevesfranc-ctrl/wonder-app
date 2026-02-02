@@ -81,6 +81,10 @@ html {
   /* @apply text-zinc-500 dark:text-zinc-400; */
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 /* Pour body et tous les éléments scrollables */
 body {
   overflow: hidden; /* bloque le scroll et cache la scrollbar */

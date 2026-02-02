@@ -12,7 +12,7 @@ const poppins = Poppins({
 
 export const MyProjects = () => {
     return (
-        <div className="w-full h-full bg-white  pb-20 flex  gap-4">
+        <div className="w-full h-full pb-20 flex  gap-4">
 
             <div>
                 <Image
@@ -29,9 +29,25 @@ export const MyProjects = () => {
                 <div
                     className=" text-bold text-white "
                 >
-                    <div className="font-heading text-2xl font-bold tracking-tight text-primary-600 sm:leading-none lg:text-4xl text-zinc-400 ">
-                        My current work
-                    </div>
+
+
+                    <h1
+                        className="
+          mt-5
+          font-heading
+          text-4xl
+          font-bold
+          tracking-tight
+          text-zinc-800
+          dark:text-zinc-100
+          sm:text-5xl
+          leading-tight
+        "
+                    >
+                        <span className="developer md:leading-loose leading-normal">
+                            ZuidPay Api
+                        </span>{" "}
+                    </h1>
                 </div>
 
                 <div className="max-w-3xl h-auto mx-autno mt-8 flex flex-col gap-3">
@@ -41,20 +57,26 @@ export const MyProjects = () => {
                             poppins.className
                         )}
                     >
-                        I work on developing solutions based on NFC (Near Field Communication) technology to simplify everyday processes and significantly reduce the time spent on repetitive tasks.
+                        c’est la promesse d’un futur où
+                        le paiement sans contact n’est plus un luxe,
+                        mais une réalité accessible en Afrique.
                     </p>
 
                     <p className="text-base font-light tracking-tight text-zinc-400  text-pretty sm:leading-[1.8rem]">
-                        🎯 Objective
-
-                        To build an intelligent ecosystem where a simple gesture — such as tapping a card or device — can trigger secure and instant actions:
-
-                        Quick access to critical information (health, identity, permissions, etc.)
-
-                        Process automation for access control, validation, and registration
-
-                        Enhanced user experience across public services, healthcare, education, and enterprises
+                        ZuidPay est une solution FinTech qui transforme la manière dont les Africains payent au quotidien. Elle permet de réaliser des transactions rapides et sécurisées sans contact, même dans les zones où l’infrastructure bancaire traditionnelle est limitée. En combinant technologie mobile avancée, sécurité de pointe et accessibilité universelle, ZuidPay vise à faire du paiement digital une norme et non un luxe, rapprochant l’Afrique d’un futur économique inclusif et connecté.
                     </p>
+
+                    <div
+                        className="
+      pointer-events-none
+      absolute inset-0
+      
+      bg-[linear-gradient(to_right,rgba(255,255,255,0.04)_1px,transparent_1px),
+          linear-gradient(to_bottom,rgba(255,255,255,0.04)_1px,transparent_1px)]
+      bg-[size:48px_48px]
+      opacity-30
+    "
+                    />
                 </div>
             </div>
 

@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
   title: "Steves Franc T. | Space Portfolio",
-  description: "Développeur web full-stack spécialisé en API, fintech et infrastructures scalables. Découvrez mes projets, collaborations et compétences techniques..",
+  description: "Développeur web full-stack spécialisé en API, fintech et infrastructures scalables. Découvrez mes projets, collaborations et compétences techniques.",
+  icons: {
+    icon: "/wonder-app/svg/favicon.svg",
+   },
   keywords: [
     "reactjs",
     "nextjs",
@@ -35,7 +38,7 @@ export const siteConfig: Metadata = {
     "css",
   ] as Array<string>,
   authors: {
-    name: "Sanidhya Kumar Verma",
-    url: "https://github.com/sanidhyy",
+    name: "Steves Franc T.",
+    url: "https://github.com/stevesfranct",
   },
 } as const;

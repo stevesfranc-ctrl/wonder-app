@@ -1,39 +1,40 @@
 import React from "react";
 
 type ContactProps = {
-    email?: string;
-    subject?: string;
-    body?: string;
-    className?: string;
-    buttonLabel?: string;
+  email?: string;
+  subject?: string;
+  body?: string;
+  className?: string;
+  buttonLabel?: string;
 };
 
 const ContactSection: React.FC<ContactProps> = ({
-    email = "francsteves21@gmail.com",
-    subject = "Contact depuis le site",
-    body = "Bonjour,\n\nJe vous contacte au sujet de...",
-    className = "my-10",
-    buttonLabel = "Envoyer un e‑mail",
+  email = "francsteves21@gmail.com",
+  subject = "Contact depuis le site",
+  body = "Bonjour,\n\nJe vous contacte au sujet de...",
+  className = "my-10",
+  buttonLabel = "Envoyer un e‑mail",
 }) => {
-    const mailto = `mailto:${email}?subject=${encodeURIComponent(
-        subject
-    )}&body=${encodeURIComponent(body)}`;
+  const mailto = `mailto:${email}?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(body)}`;
 
-    return (
-       <section
-  aria-label="Contact"
-  className="
+  return (
+    <section
+      aria-label="Contact"
+      className="
     relative
     mx-auto
     w-full
-    px-[120px] py-20
+    md:px-[120px] px-4 md:py-20
+    py-10
     text-center
-    my-[40px]
+    md:my-[40px]
   "
->
-  {/* background grid */}
-  <div
-    className="
+    >
+      {/* background grid */}
+      <div
+        className="
       pointer-events-none
       absolute inset-0
       
@@ -42,11 +43,11 @@ const ContactSection: React.FC<ContactProps> = ({
       bg-[size:48px_48px]
       opacity-30
     "
-  />
+      />
 
-  {/* subtle glow */}
-  <div
-    className="
+      {/* subtle glow */}
+      <div
+        className="
       pointer-events-none
       absolute left-1/2 top-0
       h-[300px] w-[600px]
@@ -55,47 +56,46 @@ const ContactSection: React.FC<ContactProps> = ({
       bg-indigo-500/10
       blur-3xl
     "
-  />
+      />
 
-  <div className="relative z-10">
-   
+      <div className="relative z-10">
 
-      <h3
-        className="
+
+        <h3
+          className="
           mt-5
           font-heading
-          text-base
           font-bold
           tracking-tight
           text-zinc-800
           dark:text-zinc-100
-          sm:text-5xl
-          leading-tight
-          
+          md:text-5xl
+          text-3xl
+          leading-normal
         "
-      >
-        <span className="developer leading-loose">
-          Disponible pour une collaboration
-        </span>{" "}
-      </h3>
+        >
+          <span className="developer leading-loose">
+            Disponible pour une collaboration
+          </span>{" "}
+        </h3>
 
-    <p
-      className="
-       space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400
+        <p
+          className="
+       space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400 mt-4 md:mt-0
       "
-    >
-      Je travaille sur des projets à forte exigence technique :
-      <span className="text-slate-100 font-medium">
-        {" "}API robustes, fintech et infrastructures scalables
-      </span>.
-      J’interviens aussi bien en renfort qu’en prise en charge complète
-      d’un périmètre technique.
-    </p>
+        >
+          Je travaille sur des projets à forte exigence technique :
+          <span className="text-slate-100 font-medium">
+            {" "}API robustes, fintech et infrastructures scalables
+          </span>.
+          J’interviens aussi bien en renfort qu’en prise en charge complète
+          d’un périmètre technique.
+        </p>
 
-    <a
-      href={mailto}
-      aria-label={`Ouvrir le client mail pour envoyer un message à ${email}`}
-      className="
+        <a
+          href={mailto}
+          aria-label={`Ouvrir le client mail pour envoyer un message à ${email}`}
+          className="
         mt-12
         inline-flex
         items-center
@@ -116,14 +116,14 @@ const ContactSection: React.FC<ContactProps> = ({
         hover:shadow-[0_0_40px_rgba(99,102,241,0.25)]
         font-kugile
       "
-    >
-      Me contacter
-      <span className="text-indigo-400">→</span>
-    </a>
-  </div>
-</section>
+        >
+          Me contacter
+          <span className="text-indigo-400">→</span>
+        </a>
+      </div>
+    </section>
 
-    );
+  );
 };
 
 export default ContactSection;

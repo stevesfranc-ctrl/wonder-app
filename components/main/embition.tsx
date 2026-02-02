@@ -4,7 +4,7 @@ import { MyProjects } from "./ongoing_project";
 export const Embition = () => {
     return (
         <div
-            className="flex items-start justify-center flex-col  px-20  w-full z-[20] bg-white pt-20"
+            className="flex items-start justify-center flex-col  px-20  w-full z-[20]  pt-20"
         >
             {/* <div
                 className=" text-bold text-white  max-w-8xl h-auto mx-ato text-center"

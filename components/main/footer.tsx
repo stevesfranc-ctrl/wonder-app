@@ -6,22 +6,20 @@ export const Footer = () => {
   return (
 
 
-    <div className="w-full h-full text-gray-200 shadow-lg py-1  border border-white/10 rounded-lg
+    <div className="w-full h-auto text-gray-200 shadow-lg py-1 z-[99999999999999999999] border border-white/10 rounded-lg
     bg-slate-9500 my-10 flex  flex-col px-6">
 
         <div className="mt-8 text-start space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
           <p>
-            <span className="font-normal text-gray-400 font-euclid">© {new Date().getFullYear()} Steves Franc. Tous droits réservés.</span>,
+            <span className="font-normal text-gray-400 font-euclid">© {new Date().getFullYear()} Steves Franc T. Tous droits réservés.</span>,
            </p> 
         </div>
 
       <ul className="my-6 flex gap-16">
-        <li><a href="https://www.youtube.com/@sanity_io" className="font-normal text-gray-400" aria-label="YouTube">YouTube Icon</a></li>
+        <li><a href="https://www.youtube.com/@sanity_io" className="font-normal text-gray-400" aria-label="YouTube">YouTube</a></li>
         <li><a href="https://www.linkedin.com/in/franc-steves-b99806232/" className="font-normal text-gray-400" aria-label="LinkedIn">LinkedIn</a></li>
         <li><a href="httpNs://bsky.app/profile/sanity.io" className="font-normal text-gray-400" aria-label="BlueSky">BlueSky Icon</a></li>
-        <li><a href="https://x.com/sanity_io" className="font-normal text-gray-400" aria-label="X (Twitter)">Twitter Icon</a></li>
-        <li><a href="/feed/rss" className="font-normal text-gray-400" aria-label="RSS">RSS Icon</a></li>
-        <li><a href="https://snty.link/community" className="font-normal text-gray-400" aria-label="Discord">Discord Icon</a></li>
+        <li><a href="https://snty.link/community" className="font-normal text-gray-400" aria-label="Discord">Discord</a></li>
       </ul>
 
         <div
