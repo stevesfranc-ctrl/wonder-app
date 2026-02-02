@@ -12,29 +12,21 @@ const poppins = Poppins({
 
 export const MyProjects = () => {
     return (
-        <div className="w-full h-full pb-20 flex  gap-4">
+        <div id="about-me" className="relative flex-col md:flex-row !h-full w-full max-w-[400px] flex  gap-10 md:gap-20 items-center justify-center overflow-hidden">
+            <div className=" mt-auto  h-full text-lg leading-relaxed ">
 
-            <div>
-                <Image
-                    alt="Logo"
-                    src={`/wonder-app/skills/app.png`}
-                    draggable={false}
-                    width={600}
-                    height={900}
-                    className="cursor-pointer"
-                />
-            </div>
-
-            <div>
-                <div
-                    className=" text-bold text-white "
-                >
-
-
-                    <h1
-                        className="
-          mt-5
-          font-heading
+     <div className="w-80 h-80">
+                    <img
+                        src={`/wonder-app/projects/fintech.png`}
+                        alt=""
+                        className="w-full h-full object-contain"
+                    />
+                </div>
+                <div className=" text-white flex-1">
+                    <div className="flex h-full w-full flex-col items-start justify-center  z-[20]">
+                        <h1
+                            className="
+           font-heading
           text-4xl
           font-bold
           tracking-tight
@@ -43,31 +35,26 @@ export const MyProjects = () => {
           sm:text-5xl
           leading-tight
         "
-                    >
-                        <span className="developer md:leading-loose leading-normal">
-                            ZuidPay Api
-                        </span>{" "}
-                    </h1>
-                </div>
+                        >
+                            <span className="developer md:leading-loose leading-normal">
+                                ZuidPay Api
+                            </span>
+                        </h1>
 
-                <div className="max-w-3xl h-auto mx-autno mt-8 flex flex-col gap-3">
-                    <p
-                        className={cn(
-                            "text-base font-light tracking-tight text-zinc-400  text-pretty sm:leading-[1.8rem]",
-                            poppins.className
-                        )}
-                    >
-                        c’est la promesse d’un futur où
-                        le paiement sans contact n’est plus un luxe,
-                        mais une réalité accessible en Afrique.
-                    </p>
+                        <div className="max-w-3xl h-auto mx-autno  flex flex-col gap-3">
+                            <p
+                                className={cn(
+                                    "text-base font-light tracking-tight text-zinc-400  text-pretty sm:leading-[1.8rem]",
+                                    poppins.className
+                                )}
+                            >
+                                c’est la promesse d’un futur où
+                                le paiement sans contact n’est plus un luxe,
+                                mais une réalité accessible en Afrique, ZuidPay est une solution FinTech qui transforme la manière dont les Africains payent au quotidien. 
+                            </p> 
 
-                    <p className="text-base font-light tracking-tight text-zinc-400  text-pretty sm:leading-[1.8rem]">
-                        ZuidPay est une solution FinTech qui transforme la manière dont les Africains payent au quotidien. Elle permet de réaliser des transactions rapides et sécurisées sans contact, même dans les zones où l’infrastructure bancaire traditionnelle est limitée. En combinant technologie mobile avancée, sécurité de pointe et accessibilité universelle, ZuidPay vise à faire du paiement digital une norme et non un luxe, rapprochant l’Afrique d’un futur économique inclusif et connecté.
-                    </p>
-
-                    <div
-                        className="
+                            <div
+                                className="
       pointer-events-none
       absolute inset-0
       
@@ -76,10 +63,28 @@ export const MyProjects = () => {
       bg-[size:48px_48px]
       opacity-30
     "
-                    />
-                </div>
-            </div>
+                            />
+                        </div>
+                    </div>
 
+                    <div
+                        className="
+              pointer-events-none
+              absolute inset-0
+              z-10
+              right-0
+              bottom-0
+              bg-[linear-gradient(to_right,rgba(255,255,255,0.04)_1px,transparent_1px),
+                  linear-gradient(to_bottom,rgba(255,255,255,0.04)_1px,transparent_1px)]
+              bg-[size:48px_48px]
+              opacity-30
+            "
+                    />
+
+                </div>
+
+           
+            </div>
 
         </div>
     );

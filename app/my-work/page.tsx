@@ -1,6 +1,7 @@
 import ContactSection from "@/components/main/contact";
 import { Embition } from "@/components/main/embition";
 import { Footer } from "@/components/main/footer";
+import { MyProjects } from "@/components/main/ongoing_project";
 import { StarsCanvas } from "@/components/main/star-background";
 import { poppins } from "@/constants";
 import { cn } from "@/lib/utils";
@@ -9,8 +10,7 @@ export default function MyWorkPage() {
   return (
     <main className=" h-auto w-full ">
       <div className="flex flex-col  mt-10 ">
-
-
+      
         <div id="about-me" className="relative flex-col md:flex-row !h-full w-full flex py-20 gap-10 md:gap-20 items-center justify-center overflow-hidden">
           <div className=" text-white flex-1">
             <div className="flex h-full w-full flex-col items-start justify-center mt-[20px] z-[20]">
@@ -97,10 +97,9 @@ export default function MyWorkPage() {
           </div>
         </div>
 
-
-
-
-        <Embition />
+       <div className="w-full  my-20">
+         <MyProjects />
+       </div>
 
         {/* <div className="w-full  flex  gap-4">
 
