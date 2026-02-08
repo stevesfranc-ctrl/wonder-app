@@ -15,7 +15,7 @@ export default function Menu() {
       const pathname = usePathname();
 
     return (
-        <nav className="z-[99999999999999999] fixed right-0 left-0  ">
+        <nav className="z-[99999999999999999] fixed right-0 left-0 md:hidden ">
 
             <div className="w-full flex items-center justify-between backdrop-blur-md p-4">
                             {isMobileMenuOpen ?
