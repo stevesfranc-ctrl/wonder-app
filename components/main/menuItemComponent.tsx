@@ -15,10 +15,10 @@ export default function Menu() {
       const pathname = usePathname();
 
     return (
-        <nav className="z-[9999999999] relative">
-            <div className="md:hidden py-2 flex justify-between items-center">
+        <nav className="z-[99999999999999999] fixed right-0 left-0  ">
 
-                {isMobileMenuOpen ?
+            <div className="w-full flex items-center justify-between backdrop-blur-md p-4">
+                            {isMobileMenuOpen ?
 
                     <div onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="w-[25px] flex items-center justify-center">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M19.207 6.207a1 1 0 0 0-1.414-1.414L12 10.586 6.207 4.793a1 1 0 0 0-1.414 1.414L10.586 12l-5.793 5.793a1 1 0 1 0 1.414 1.414L12 13.414l5.793 5.793a1 1 0 0 0 1.414-1.414L13.414 12l5.793-5.793z" fill="#ffffff"></path></g></svg>
@@ -49,6 +49,10 @@ export default function Menu() {
                     </svg>
 
                 </div>
+            </div>
+ 
+    
+
                 <div style={isMobileMenuOpen ? styles.show : styles.close} className="md:hidden fixed top-0 right-0 bottom-0 w-56  shadow-lg  bg-[#1a1444] p-4 z-[999999999999999999999999999]">
 
                     <div
@@ -83,8 +87,8 @@ export default function Menu() {
 
                     ))}
                 </div>
-            </div>
-        </nav>
+
+         </nav>
     );
 }
 

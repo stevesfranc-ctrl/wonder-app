@@ -5,7 +5,7 @@ import MyQRCode from "./QRCode";
 
 export const Hero = () => {
   return (
-    <div id="about-me" className="relative flex-col md:flex-row !h-full w-full flex gap-10 md:gap-20 items-center justify-center overflow-hidden pb-10">
+    <div id="about-me" className="relative flex-col md:flex-row !h-full w-full flex gap-10 md:gap-20 items-center pt-24 md:pt-8 justify-center overflow-hidden pb-10">
       <div className=" text-white flex-1">
         <HeroContent />
         <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">

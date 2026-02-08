@@ -17,7 +17,7 @@ export default function AboutMe() {
                 <div className="absolute hidden md:block left-1/2 top-1/4 w-16 h-16 bg-red-500 z-0" />
 
                 {/* Contenu */}
-                <div className="relative z-20 max-w-7xl mx-auto md:px-8 md:pb-24 md:pt-24 pt-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div className="relative z-20 max-w-7xl mx-auto pt-24 md:px-8 md:pb-24 md:pt-24  grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
                     {/* Texte */}
                     <div>
