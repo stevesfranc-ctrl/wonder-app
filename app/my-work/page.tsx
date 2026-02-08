@@ -3,7 +3,7 @@ import { Embition } from "@/components/main/embition";
 import { Footer } from "@/components/main/footer";
 import { MyProjects } from "@/components/main/ongoing_project";
 import DailyToolsSection from "@/components/main/Tools";
-import { poppins } from "@/constants";
+import { poppins } from "@/public/projects";
 import { cn } from "@/lib/utils";
 
 export default function MyWorkPage() {

@@ -7,7 +7,7 @@ import {
   FULLSTACK_SKILL,
   OTHER_SKILL,
   SKILL_DATA,
-} from "@/constants";
+} from "@/public/projects";
 
 export const Skills = () => {
   return (

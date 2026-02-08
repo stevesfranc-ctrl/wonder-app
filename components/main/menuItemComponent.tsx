@@ -1,6 +1,6 @@
 "use client";
 
-import { NAV_LINKS } from "@/constants";
+import { NAV_LINKS } from "@/public/projects";
 import { cn } from "@/lib/utils";
 import { Inter } from "next/font/google";
 import Link from "next/link";
@@ -66,7 +66,7 @@ export default function Menu() {
                     />
                     {NAV_LINKS.map((item, index) => (
 
-                        <div style={styles.item}>
+                        <div style={styles.item} key={index}>
                             <Link
                                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                                 key={item.label}

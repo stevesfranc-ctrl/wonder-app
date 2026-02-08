@@ -1,3 +1,4 @@
+import { Experience } from "@/lib/Experience";
 import { MenuItem } from "@/lib/menu";
 import { link } from "fs";
 import { Poppins, Roboto } from "next/font/google";
@@ -235,6 +236,69 @@ export const APP = [
     height: 90,
   },
 ] as const;
+
+
+export  const experiences: Experience[] = [
+
+    {
+    id: 4,
+    company: "Global Link",
+    role: "Stagiaire Développeur fullstack",
+    startDate: "Juin 2021",
+    endDate: "Août 2021",
+    logo: "/projects/globalink.png",
+    stack: ["HTML", "CSS", "JavaScript", "PHP"],
+  },
+  
+  {
+    id: 1,
+    company: "ISDG-SARL",
+    role: "Développeusr frontend",
+    startDate: "Septembre 2021",
+    endDate: "Juin 2023",
+    logo: "/projects/isdg.jpeg",
+    stack: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+  },
+  {
+    id: 2,
+    company: "Mounir-Holding",
+    role: "Développeuse fullStack",
+    startDate: "Septembre 2023",
+    endDate: "Janvier 2024",
+    logo: "/projects/mounir.jpeg",
+    stack: ["Vue.js", "Node.js", "Express", "PostgreSQL"],
+  },
+
+
+  {
+    id: 5,
+    company: "AgrinpKap",
+    role: "Freelance développeur Front-end",
+    startDate: "Juin 2023",
+    endDate: "Août 2023",
+    logo: "/projects/agrinkap.jpg",
+    stack: ["HTML", "CSS", "JavaScript"],
+  },
+    {
+    id: 5,
+    company: "Deep Dreamz",
+    role: "Freelance développeur FullStack",
+    startDate: "Juin 2024",
+    endDate: "Août 2025",
+    logo: "/projects/dreamz.png",
+    stack: ["HTML", "CSS", "JavaScript"],
+  },
+      {
+    id: 5,
+    company: "NebulaGeek",
+    role: "Team Lead",
+    startDate: "Juin 2025",
+    endDate: "Août 2025",
+    logo: "/projects/cropped-NebulaGeek.png",
+    stack: ["HTML", "CSS", "JavaScript"],
+  },
+];
+
 
 export const PROJECTS = [
   {

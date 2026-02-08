@@ -19,19 +19,17 @@ export const ProjectCard = ({
       href={link}
       target="_blank"
       rel="noreferrer noopener"
-      className="relative overflow-hidden rounded-xl shadow-lg border max-w-[600px]"
+      className="relative shadow-lg overflow-hidden max-w-[600px]"
     >
-      <div className="bg-zinc-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 h-full">
-        <div className="h-40 flex items-center justify-center bg-white text-white font-bold">
+      <div className=" rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 h-full">
+        <div className="h-40 mb-4 rounded-md flex items-center justify-center bg-white text-white font-bold !overflow-hidden">
           <img
             src={`${src}`}
             alt={title}
-            className="w-full h-full object-cover bg-center"
+            className="w-full h-full object-cover bg-center border overflow-hidden shadow-sm"
           />
         </div>
-        <div className="p-5">
-          <p className="text-sm text-zinc-500 dark:text-zinc-400 mb-2 shadow-2xl">
-          </p>
+        <div className="px-5">
           <h1
             className="
           font-heading
@@ -48,7 +46,7 @@ export const ProjectCard = ({
               {title}
             </span>
           </h1>
-          <p className="space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400 mt-2">
+          <p className="space-y-4 text-[13px] leading-[1.5rem] text-zinc-600 dark:text-zinc-400 mt-2">
             {description}
           </p>
         </div>

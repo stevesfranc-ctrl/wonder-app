@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-import { NAV_LINKS } from "@/constants";
+import { NAV_LINKS } from "@/public/projects";
 import MenuItemComponent from "./menuItemComponent";
 import { usePathname } from "next/navigation";
 

@@ -24,7 +24,7 @@ export const SkillText = () => {
     leading-tight
   "
       >
-        <span className="developer text-4xl font-semibold leading-normal text-white">
+        <span className="developer text-3xl font-semibold leading-normal text-white">
           Projets et Collaborations
         </span>
         .

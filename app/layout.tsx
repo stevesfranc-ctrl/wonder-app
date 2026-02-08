@@ -30,7 +30,10 @@ export default function RootLayout({ children }: PropsWithChildren) {
         )}
       >
         {/* <StarsCanvas /> */}
-        <div
+
+        <Navbar />
+
+                <div
           className="
       fixed
       -inset-6
@@ -44,8 +47,16 @@ export default function RootLayout({ children }: PropsWithChildren) {
       opacity-80
     "
         />
-        <Navbar />
-        {children}
+
+        <div    className={cn(
+          " fixed top-0 bottom-0 right-0 left-0 z-50 overflow-y-scroll overflow-x-hidden w-full max-w-6xl mx-auto px-4  md:max-w-6xl flex-1  !scrollbar-hide",
+          inter.className,
+          euclid.variable,
+          kugile.variable
+        )}>
+                  {children}
+
+        </div>
       </body>
     </html>
   );

@@ -1,6 +1,5 @@
 import { ProjectCard } from "@/components/sub/project-card";
-import { poppins, PROJECTS } from "@/constants";
-import { cn } from "@/lib/utils";
+import {  PROJECTS } from "@/public/projects";
 
 export const Projects = () => {
   return (
@@ -21,7 +20,7 @@ export const Projects = () => {
       </div>
 
       <div className="mt-8">
-         <div className="  flex flex-row gap-5 ">
+        <div className="  flex flex-row gap-5 ">
           <a
             href="/steves_franc_t_cv.pdf"
             download
@@ -46,6 +45,7 @@ export const Projects = () => {
           </a>
         </div>
       </div>
+      
     </section>
   );
 };

@@ -2,7 +2,7 @@ import ContactSection from "@/components/main/contact";
 import { Footer } from "@/components/main/footer";
 import ParallaxSection from "@/components/main/ParallaxSection";
 import { Swipper } from "@/components/sub/swiper";
-import { poppins } from "@/constants";
+import { poppins } from "@/public/projects";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 

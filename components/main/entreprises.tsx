@@ -1,4 +1,4 @@
-import { ENTREPRISES, poppins, PROJECTS, roboto } from "@/constants";
+import { ENTREPRISES, poppins, PROJECTS, roboto } from "@/public/projects";
  import Image from "next/image";
 import Link from "next/link";
 
