@@ -6,7 +6,7 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex flex-col flex-wrap h-auto w-full items-center justify-center mt-20"
+      className="flex flex-col flex-wrap h-auto w-full overflow-x-hidden items-center justify-center mt-20"
     >
       <div className="h-auto w-full grid grid-cols-1 md:grid-cols-3 flex-wrap gap-10">
         {PROJECTS.map((project) => (
@@ -23,7 +23,7 @@ export const Projects = () => {
       <div className="mt-8">
          <div className="  flex flex-row gap-5 ">
           <a
-            href="/wonder-app/steves_franc_t_cv.pdf"
+            href="/steves_franc_t_cv.pdf"
             download
             className="
     inline-flex

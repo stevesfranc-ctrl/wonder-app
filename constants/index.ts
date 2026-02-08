@@ -1,3 +1,4 @@
+import { MenuItem } from "@/lib/menu";
 import { link } from "fs";
 import { Poppins, Roboto } from "next/font/google";
 import { FaYoutube, FaFacebook } from "react-icons/fa";
@@ -12,67 +13,67 @@ import {
 export const SKILL_DATA = [
   {
     skill_name: "HTML",
-    image: "/wonder-app/skills/html.png",
+    image: "/skills/html.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "CSS",
-    image: "/wonder-app/skills/css.png",
+    image: "/skills/css.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "JavaScript",
-    image: "/wonder-app/skills/js.png",
+    image: "/skills/js.png",
     width: 65,
     height: 65,
   },
   {
     skill_name: "Tailwind CSS",
-    image: "/wonder-app/skills/tailwind.png",
+    image: "/skills/tailwind.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "ANGULAR",
-    image: "/wonder-app/skills/angular.png",
+    image: "/skills/angular.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "React",
-    image: "/wonder-app/skills/react.png",
+    image: "/skills/react.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Nuxtjs",
-    image: "/wonder-app/skills/nuxt.png",
+    image: "/skills/nuxt.png",
     width: 90,
     height: 90,
   },
   {
     skill_name: "TypeScript",
-    image: "/wonder-app/skills/ts.png",
+    image: "/skills/ts.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Next.js 14",
-    image: "/wonder-app/skills/next.png",
+    image: "/skills/next.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Node.js",
-    image: "/wonder-app/skills/node.png",
+    image: "/skills/node.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "MongoDB",
-    image: "/wonder-app/skills/mongodb.png",
+    image: "/skills/mongodb.png",
     width: 40,
     height: 40,
   },
@@ -100,37 +101,37 @@ export const FRONTEND_SKILL = [
 
   {
     skill_name: "Material UI",
-    image: "/wonder-app/skills/mui.png",
+    image: "/skills/mui.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "React",
-    image: "/wonder-app/skills/react.png",
+    image: "/skills/react.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Redux",
-    image: "/wonder-app/skills/redux.png",
+    image: "/skills/redux.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "React Query",
-    image: "/wonder-app/skills/reactquery.png",
+    image: "/skills/reactquery.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "TypeScript",
-    image: "/wonder-app/skills/ts.png",
+    image: "/skills/ts.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Next.js 14",
-    image: "/wonder-app/skills/next.png",
+    image: "/skills/next.png",
     width: 80,
     height: 80,
   },
@@ -139,44 +140,44 @@ export const FRONTEND_SKILL = [
 export const BACKEND_SKILL = [
   {
     skill_name: "Sprint Boot",
-    image: "/wonder-app/skills/sprintboot.png",
+    image: "/skills/sprintboot.png",
     width: 80,
     height: 80,
   },
 
   {
     skill_name: "Node.js",
-    image: "/wonder-app/skills/node.png",
+    image: "/skills/node.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Express.js",
-    image: "/wonder-app/skills/express.png",
+    image: "/skills/express.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "MongoDB",
-    image: "/wonder-app/skills/mongodb.png",
+    image: "/skills/mongodb.png",
     width: 40,
     height: 40,
   },
   {
     skill_name: "Firebase",
-    image: "/wonder-app/skills/firebase.png",
+    image: "/skills/firebase.png",
     width: 55,
     height: 55,
   },
   {
     skill_name: "PostgreSQL",
-    image: "/wonder-app/skills/postgresql.png",
+    image: "/skills/postgresql.png",
     width: 70,
     height: 70,
   },
   {
     skill_name: "MySQL",
-    image: "/wonder-app/skills/mysql.png",
+    image: "/skills/mysql.png",
     width: 70,
     height: 70,
   },
@@ -186,32 +187,32 @@ export const BACKEND_SKILL = [
 export const FULLSTACK_SKILL = [
   {
     skill_name: "React Native",
-    image: "/wonder-app/skills/reactnative.png",
+    image: "/skills/reactnative.png",
     width: 70,
     height: 70,
   },
   {
     skill_name: "Flutter",
-    image: "/wonder-app/skills/flutter.png",
+    image: "/skills/flutter.png",
     width: 180,
     height: 180,
   },
   {
     skill_name: "Ionic",
-    image: "/wonder-app/skills/ionic.png",
+    image: "/skills/ionic.png",
     width: 70,
     height: 70,
   },
   {
     skill_name: "Docker",
-    image: "/wonder-app/skills/docker.png",
+    image: "/skills/docker.png",
     width: 70,
     height: 70,
   },
 
   {
     skill_name: "Figma",
-    image: "/wonder-app/skills/figma.png",
+    image: "/skills/figma.png",
     width: 50,
     height: 50,
   }
@@ -220,7 +221,7 @@ export const FULLSTACK_SKILL = [
 export const OTHER_SKILL = [
   {
     skill_name: "Go",
-    image: "/wonder-app/skills/go.png",
+    image: "/skills/go.png",
     width: 60,
     height: 60,
   },
@@ -229,7 +230,7 @@ export const OTHER_SKILL = [
 export const APP = [
   {
     skill_name: "Application",
-    image: "/wonder-app/skills/app.png",
+    image: "/skills/app.png",
     width: 100,
     height: 90,
   },
@@ -240,42 +241,42 @@ export const PROJECTS = [
     title: "Cosna Afrique",
     description:
       'Transférez de l\'argent instantanément dans le portefeuille Mobile Money de votre bénéficiaire.',
-    image: "/wonder-app/projects/cosna.jpeg",
+    image: "/projects/cosna.jpeg",
     link: "https://cosna-afrique.com",
   },
   {
     title: "Loov Solutions",
     description:
       'Ouvrez la porte à des possibilités de paiement infinies pour tous – Entreprises, Particuliers, PME, Marchés émergents et Startups!',
-    image: "/wonder-app/projects/loov.jpeg",
+    image: "/projects/loov.jpeg",
     link: "https://loov-solutions.com/",
   },
   {
     title: "Sangal Money",
     description:
       'Retirez de l\'argent depuis votre carte bancaire où que vous soyez dans le monde, et transférez-le directement vers votre compte mobile money en Afrique (au Sénégal, en Côte d\'Ivoire, au Bénin)',
-    image: "/wonder-app/projects/sangal.png",
+    image: "/projects/sangal.png",
     link: "https://app.sangalmoney.com/",
   },
   {
     title: "AgripNkap",
     description:
       'Accédez à une assistance agricolte personnalisée, les conseils experts et les dernières actualitées agricoltes en exclusivité pour le Cameroun.',
-    image: "/wonder-app/projects/agrinkap.jpg",
+    image: "/projects/agrinkap.jpg",
     link: "https://play.google.com/store/apps/details?id=com.agrinkap.com&hl=fr",
   },
     {
     title: "Drimzwallet",
     description:
       'Drimz Wallet améliore votre expérience financière grâce à une plateforme numérique intuitive pour envoyer, recevoir et gérer vos finances personnelles ou professionnelles.',
-    image: "/wonder-app/projects/dreamz.png",
+    image: "/projects/dreamz.png",
     link: "https://drimzwallet.com",
   },
       {
     title: "NebulaGeek",
     description:
       'Nebulageek Inc est une entreprise innovante spécialisée dans le développement web, l\'application mobile, la digitalisation et les services cloud sécurisés.',
-    image: "/wonder-app/projects/cropped-NebulaGeek.png",
+    image: "/projects/cropped-NebulaGeek.png",
     link: "https://nebulageek.com/",
   }
 ] as const;
@@ -381,19 +382,19 @@ export const FOOTER_DATA = [
 ] as const;
 
 export const NAV_LINKS = [
+    {
+    label: "Collaboration",
+    link: "/",
+  },
   {
-    title: "A propos",
+    label: "A propos",
     link: "/about-me",
   },
   {
-    title: "Collaboration",
-    link: "/#skills",
-  },
-  {
-    title: "Mes travaux",
+    label: "Mes travaux",
     link: "/my-work",
   },
-] as const;
+] as MenuItem[];
 
 export const LINKS = {
   sourceCode: "https://github.com/sanidhyy/space-portfolio",

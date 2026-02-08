@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function AboutMe() {
     return (
-        <main className=" h-auto w-full ">
+        <main className=" h-auto w-full overflow-x-hidden">
 
             <section className="relative text-white overflow-hidden">
                 {/* Shapes décoratives */}
@@ -17,11 +17,11 @@ export default function AboutMe() {
                 <div className="absolute hidden md:block left-1/2 top-1/4 w-16 h-16 bg-red-500 z-0" />
 
                 {/* Contenu */}
-                <div className="relative z-20 max-w-7xl mx-auto md:px-8 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div className="relative z-20 max-w-7xl mx-auto md:px-8 md:pb-24 md:pt-24 pt-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
                     {/* Texte */}
                     <div>
-                        <p className="text-sm text-gray-300 mb-2">Je m'appelle,</p>
+                        <p className="text-sm text-gray-300 mb-2">Je m&apos;appelle,</p>
 
                         <h1 className="
           mt-5
@@ -29,7 +29,7 @@ export default function AboutMe() {
           text-4xl
           font-bold
           tracking-tight
-          dark:text-zinc-100
+          text-white
           sm:text-5xl
           leading-tight
         " >
@@ -44,7 +44,7 @@ export default function AboutMe() {
           font-bold
           tracking-tight
           !text-lg
-          dark:text-zinc-100
+          text-white
           leading-tight
         " >
                                 Développeur
@@ -58,7 +58,7 @@ export default function AboutMe() {
           text-4xl
           font-bold
           tracking-tight
-          dark:text-zinc-100
+          text-white
           sm:text-5xl
           leading-tight
         " >
@@ -68,9 +68,9 @@ export default function AboutMe() {
                         </h2>
 
                         <p className="text-gray-300 leading-relaxed max-w-md mb-8">
-                            Développeur passionné par la création d’expériences digitales modernes.
+                            Développeur passionné par la création d&apos;expériences digitales modernes.
                             Je conçois des applications performantes, élégantes et orientées utilisateur,
-                            en combinant design, frontend et architectures backend solides resident actuellement en Belgique 🇧🇪.
+                            en combinant design, frontend et architectures backend solides. Je resident actuellement en Belgique 🇧🇪.
                         </p>
 
                         <div className="flex gap-4">
@@ -84,7 +84,7 @@ export default function AboutMe() {
     bg-gradient-to-r from-red-400 to-red-500
   "
                             >
-                                Passionné par l'évangile de JESUS CHRIST 🥰
+                                Passionné par l&apos;évangile de JESUS CHRIST 🥰
                             </div>
 
 
@@ -95,7 +95,7 @@ export default function AboutMe() {
                     <div className="relative hidden md:flex justify-center">
                         <div className="relative w-[320px] h-[420px] z-20 overflow-hidden">
                             {/* <img
-              src="/wonder-app/projects/toff.png" 
+              src="/projects/toff.png" 
               alt="Profile"
               className="object-cover !h-[500px]"
             /> */}
@@ -116,14 +116,14 @@ export default function AboutMe() {
           text-4xl
           font-bold
           tracking-tight
-          text-zinc-800
-          dark:text-zinc-100
+          
+          text-white
           sm:text-5xl
           leading-tight
         "
                             >
                                 <span className="developer ">
-                                    Steves c'est aussi une passion
+                                    Steves c&apos;est aussi une passion
                                 </span>{" "}
                                 <span className="community">
                                     pour des véhicules de luxe
@@ -132,22 +132,21 @@ export default function AboutMe() {
 
                             <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
                                 <p className={cn(poppins.className)}>
-                                    J’ai eu l’occasion d’assister à plusieurs reprises au{" "}
+                                    J&apos;ai eu l&apos;occasion d&apos;assister à plusieurs reprises au{" "}
                                     <a
                                         href="https://www.autosalon.be/fr"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="font-medium text-red-500 hover:underline"
                                     >
-                                        Salon de l’Auto de Belgique
+                                        Salon de l&apos;Auto de Belgique
                                     </a>
                                     , un événement incontournable qui nourrit ma passion pour
-                                    l’excellence automobile et les technologies de pointe.
+                                    l&apos;excellence automobile et les technologies de pointe.
                                 </p>
                                 <div>
                                     <a
-                                        href="/wonder-app/steves_franc_t_cv.pdf"
-                                        download
+                                        href="/"
                                         className="
     inline-flex
     items-center
@@ -165,7 +164,7 @@ export default function AboutMe() {
     text-sm
   "
                                     >
-                                        Visiter Kerima
+                                        Visiter Kerima demain
                                     </a>
                                 </div>
                             </div>
@@ -190,7 +189,7 @@ export default function AboutMe() {
 
                         <div className="absolute inset-0 top-0 bottom-0 right-0  -z-10 opacity-50">
                             <img
-                                src="/wonder-app/projects/cars.png"
+                                src="/projects/cars.png"
                                 alt=""
                                 className="w-full h-full object-cover blur-sm"
 
@@ -221,14 +220,14 @@ export default function AboutMe() {
           text-4xl
           font-bold
           tracking-tight
-          text-zinc-800
-          dark:text-zinc-100
+          
+          text-white
           sm:text-5xl
           leading-tight
         "
       >
         <span className="developer ">
-          Steves, c'est aussi une passion
+          Steves, c&apos;est aussi une passion
         </span>{" "}
         <span className="community">
           pour la décoration intérieure
@@ -237,14 +236,14 @@ export default function AboutMe() {
 
       <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
         <p className={cn(poppins.className)}>
-          J’ai toujours été fasciné par l’art de transformer un espace en un lieu chaleureux et harmonieux. 
+          J&apos;ai toujours été fasciné par l’art de transformer un espace en un lieu chaleureux et harmonieux. 
           Que ce soit par le choix des couleurs, l’agencement du mobilier ou les petits détails décoratifs, 
           chaque élément contribue à créer une atmosphère unique et agréable.
         </p>
      
         <div>
           <a
-            href="/wonder-app/steves_franc_t_cv.pdf"
+            href="/"
             download
             className="
               inline-flex
@@ -263,7 +262,7 @@ export default function AboutMe() {
               text-sm
             "
           >
-            Visiter Kerima
+            Visiter Kerima demain
           </a>
         </div>
       </div>
@@ -287,18 +286,13 @@ export default function AboutMe() {
   <div className=" mt-auto pt-15 h-full text-lg leading-relaxed flex-1 hidden md:flex flex-col items-center justify-center">
     <div className="absolute inset-0 top-0 bottom-0 right-0  -z-10 opacity-50">
       <img
-        src="/wonder-app/projects/home.JPG"
+        src="/projects/home.JPG"
         alt="Décoration intérieure"
         className="w-full h-full object-cover rounded-sm"
       />
     </div>
   </div>
 </div>
-
-
-
-
-
 
                 {/* <Swipper /> */}
 

@@ -67,8 +67,8 @@ const ContactSection: React.FC<ContactProps> = ({
           font-heading
           font-bold
           tracking-tight
-          text-zinc-800
-          dark:text-zinc-100
+          
+          text-white
           md:text-5xl
           text-3xl
           leading-normal

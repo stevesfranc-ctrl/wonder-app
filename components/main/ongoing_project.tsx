@@ -12,7 +12,7 @@ export const MyProjects = () => {
     return (
         <div id="about-me" className="relative  flex-col md:flex-row !h-full w-full flex  gap-10 md:gap-20 items-start justify-center overflow-hidden">
 
-   <div className=" text-white flex-1 text-start">
+            <div className=" text-white flex-1 text-start">
                 <div className="flex h-full w-full flex-col items-start justify-start z-[20]">
                     <h1
                         className="
@@ -20,8 +20,8 @@ export const MyProjects = () => {
           text-4xl
           font-bold
           tracking-tight
-          text-zinc-800
-          dark:text-zinc-100
+          
+          text-white
           sm:text-5xl
           leading-tight
         "
@@ -37,16 +37,16 @@ export const MyProjects = () => {
                                 "text-base font-light tracking-tight text-zinc-400  text-pretty sm:leading-[1.8rem]",
                                 poppins.className
                             )}
-                        >
-                            c’est la promesse d’un futur où
-                            le paiement sans contact n’est plus un luxe,
+                        >c&apos;est la promesse d&apos;un futur où
+                            le paiement sans contact n&apos;est plus un luxe,
                             mais une réalité accessible en Afrique, ZuidPay est une solution FinTech qui transforme la manière dont les Africains payent au quotidien.
+
                         </p>
 
-    <a
-                    href="/wonder-app/steves_franc_t_cv.pdf"
-                    download
-                    className="
+                        <a
+                            href="/steves_franc_t_cv.pdf"
+                            download
+                            className="
     inline-flex
     items-center
     justify-center
@@ -64,11 +64,11 @@ export const MyProjects = () => {
     duration-200
     text-sm
   "
-                  >
-                    Je veux tester l'API
-                  </a>
+                        >
+                            Je veux tester l&apos;API
+                        </a>
 
-                          
+
 
                         <div
                             className="
@@ -99,18 +99,18 @@ export const MyProjects = () => {
                 />
 
 
-               
+
             </div>
 
-                     <div className="">
-  <img
-                    src={`/wonder-app/projects/fintech.png`}
+            <div className="">
+                <img
+                    src={`/projects/fintech.png`}
                     alt=""
                     className="object-contain  w-full h-full "
                 />
-                        </div>
+            </div>
 
-    
+
         </div>
     );
 }

@@ -21,7 +21,7 @@ export const ProjectCard = ({
       rel="noreferrer noopener"
       className="relative overflow-hidden rounded-xl shadow-lg border max-w-[600px]"
     >
-      <div className="bg-zinc-200 dark:bg-zinc-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 h-full">
+      <div className="bg-zinc-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 h-full">
         <div className="h-40 flex items-center justify-center bg-white text-white font-bold">
           <img
             src={`${src}`}
@@ -38,8 +38,8 @@ export const ProjectCard = ({
           text-4xl
           font-bold
           tracking-tight
-          text-zinc-800
-          dark:text-zinc-100
+          
+          text-white
           sm:text-5xl
           leading-tight
         "

@@ -2,7 +2,7 @@
 
 export const HeroContent = () => {
   return (
-    <div className="flex h-full w-full flex-col items-start justify-center mt-[20px] z-[20]">
+    <div className="flex h-full w-full flex-col items-start justify-center z-[20] md:pt-24">
       <h1
         className="
           mt-5
@@ -10,8 +10,7 @@ export const HeroContent = () => {
           text-4xl
           font-bold
           tracking-tight
-          text-zinc-800
-          dark:text-zinc-100
+          text-zinc-100
           sm:text-5xl
           leading-tight
         "

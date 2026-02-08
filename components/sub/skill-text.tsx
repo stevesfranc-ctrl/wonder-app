@@ -19,22 +19,19 @@ export const SkillText = () => {
     text-4xl
     font-bold
     tracking-tight
-    text-zinc-800
-    dark:text-zinc-100
+    text-white
     sm:text-5xl
     leading-tight
   "
       >
-        <span className="developer text-4xl font-semibold leading-normal">
+        <span className="developer text-4xl font-semibold leading-normal text-white">
           Projets et Collaborations
         </span>
         .
       </h1>
 
       <p className="mt-8 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
-        J'ai contribué à des projets de tailles variées dans le secteur de la fintech,
-        notamment le développement d'API, en respectant les bonnes pratiques et en définissant
-        des infrastructures scalables et robustes.
+        J&apos;ai eu l&apos;occasion de travailler sur plusieurs projets passionnants, notamment dans le domaine de la fintech.
       </p>
 
     </div>

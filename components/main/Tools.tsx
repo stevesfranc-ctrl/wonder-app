@@ -64,7 +64,7 @@ const tools = [
 
 export default function DailyToolsSection() {
   return (
-    <section className="relative py-24 px-6  text-white">
+    <section className="relative md:py-24 py-10 px-6  text-white">
       <div className="max-w-6xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -76,8 +76,8 @@ export default function DailyToolsSection() {
           text-4xl
           font-bold
           tracking-tight
-          text-zinc-800
-          dark:text-zinc-100
+          
+          text-white
           sm:text-5xl
           leading-tight
           text-center

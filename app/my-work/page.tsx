@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 
 export default function MyWorkPage() {
   return (
-    <main className=" h-auto w-full ">
+    <main className=" h-auto w-full overflow-hidden">
       <div className="flex flex-col  mt-10 relative">
 
         <div id="about-me" className="relative flex-col md:flex-row !h-full w-full flex py-20 gap-10 md:gap-20 items-center justify-center overflow-hidden">
@@ -21,8 +21,8 @@ export default function MyWorkPage() {
           text-4xl
           font-bold
           tracking-tight
-          text-zinc-800
-          dark:text-zinc-100
+          
+          text-white
           sm:text-5xl
           leading-tight
         "
@@ -36,14 +36,12 @@ export default function MyWorkPage() {
               </h1>
 
               <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
-                <p className={cn(
-                  poppins.className
-                )}>
-                  C’est une plateforme qui transforme vos déplacements quotidiens en opportunités concrètes. Grâce à la technologie et l’innovation, chaque trajet devient une expérience enrichissante, rapide et sécurisée.
+                <p className={cn(poppins.className)}>
+                  C&apos;est une plateforme qui transforme vos déplacements quotidiens en opportunités concrètes. Grâce à la technologie et l&apos;innovation, chaque trajet devient une expérience enrichissante, rapide et sécurisée.
                 </p>
                 <div>
                   <a
-                    href="/wonder-app/steves_franc_t_cv.pdf"
+                    href="/steves_franc_t_cv.pdf"
                     download
                     className="
     inline-flex
@@ -86,7 +84,7 @@ export default function MyWorkPage() {
 
             <div className="absolute inset-0 top-0 bottom-0 right-0  -z-10 opacity-50">
               <img
-                src="/wonder-app/projects/travel-girl.png"
+                src="/projects/travel-girl.png"
                 alt=""
                 className="w-full h-full object-cover"
               />
@@ -100,7 +98,7 @@ export default function MyWorkPage() {
 
           {
             [1].map((project, index) => (
-              <MyProjects />
+              <MyProjects key={index} />
             ))
           }
         </div>

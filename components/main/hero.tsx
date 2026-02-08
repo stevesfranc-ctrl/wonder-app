@@ -5,12 +5,12 @@ import MyQRCode from "./QRCode";
 
 export const Hero = () => {
   return (
-    <div  id="about-me" className="relative flex-col md:flex-row !h-full w-full flex py-20 gap-10 md:gap-20 items-center justify-center overflow-hidden">
+    <div  id="about-me" className="relative flex-col md:flex-row !h-full w-full flex gap-10 md:gap-20 items-center justify-center overflow-hidden">
       <div className=" text-white flex-1">
         <HeroContent />
         <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
           <p>
-            👋🏾 Salut, je suis &nbsp;<span className="font-medium text-zinc-900 dark:text-white">Steves Franc</span>,
+            👋🏾 Salut, je suis &nbsp;<span className="font-medium text-white">Steves Franc</span>,
             Software Engineer passionné de technologies, avec une vraie capacité à concevoir des applications solides, modernes et maintenables, aussi bien côté front-end que back-end.
           </p>
           <p>
@@ -40,7 +40,7 @@ export const Hero = () => {
 
         <div className="absolute inset-0 top-0 bottom-0 right-0 left-0 -z-10 opacity-50">
           <img
-            src="/wonder-app/svg/fintech-animated.svg"
+            src="/svg/fintech-animated.svg"
             alt=""
             className="w-full h-full object-cover"
           />

@@ -4,7 +4,7 @@ export const siteConfig: Metadata = {
   title: "Steves Franc T. | Space Portfolio",
   description: "Développeur web full-stack spécialisé en API, fintech et infrastructures scalables. Découvrez mes projets, collaborations et compétences techniques.",
   icons: {
-    icon: "/wonder-app/svg/favicon.svg",
+    icon: "/svg/favicon.svg",
    },
   keywords: [
     "reactjs",

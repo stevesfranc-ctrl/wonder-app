@@ -16,9 +16,9 @@ export const Footer = () => {
         </div>
 
       <ul className="my-6 flex gap-16">
-        <li><a href="https://www.youtube.com/@sanity_io" className="font-normal text-gray-400" aria-label="YouTube">YouTube</a></li>
+        <li><a href="/" className="font-normal text-gray-400" aria-label="YouTube">YouTube</a></li>
         <li><a href="https://www.linkedin.com/in/franc-steves-b99806232/" className="font-normal text-gray-400" aria-label="LinkedIn">LinkedIn</a></li>
-        <li><a href="httpNs://bsky.app/profile/sanity.io" className="font-normal text-gray-400" aria-label="BlueSky">BlueSky Icon</a></li>
+        <li><a href="/" className="font-normal text-gray-400" aria-label="BlueSky">BlueSky</a></li>
         {/* <li><a href="https://snty.link/community" className="font-normal text-gray-400" aria-label="Discord">Discord</a></li> */}
       </ul>
 

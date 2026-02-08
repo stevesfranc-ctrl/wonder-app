@@ -20,7 +20,7 @@ export const Entreprises = () => {
                             
                         >
                             <Image
-                                src={`/wonder-app/skills${elmt.image}`}
+                                src={`/skills${elmt.image}`}
                                 alt={elmt.title}
                                 width={120}
                                 height={120}
