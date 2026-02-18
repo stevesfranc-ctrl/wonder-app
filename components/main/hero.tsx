@@ -71,7 +71,7 @@ export const Hero = () => {
 
             <div>
               <p className="mt-4 text-center text-sm text-gray-400 hidden md:block">
-                Scannez pour voir mon CV
+                Scannez pour accéder à mon CV.
               </p>
 
               <p className="mt-4 text-center text-sm text-gray-400 block md:hidden">
