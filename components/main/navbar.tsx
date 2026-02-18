@@ -5,6 +5,7 @@ import Link from "next/link";
 import { NAV_LINKS } from "@/public/projects";
 import MenuItemComponent from "./menuItemComponent";
 import { usePathname } from "next/navigation";
+import AvatarQuote from "./avatarQuote";
 
 export const Navbar = () => {
 
@@ -23,6 +24,8 @@ export const Navbar = () => {
             href="/"
             className="flex items-center p-0"
           >
+
+            {/* <AvatarQuote /> */}
             <div className="w-[50px] h-[50px] rounded-full border-2 border-white md:-mr-[-30px] ml-0">
               <img
                 src="/profil.JPG"

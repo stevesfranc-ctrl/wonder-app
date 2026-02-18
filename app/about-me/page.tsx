@@ -121,7 +121,7 @@ export default function AboutMe() {
                 </span>.
               </h1>
 
-              <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
+              <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-gray-300">
                 <p className={cn(poppins.className)}>
                   J&apos;ai eu l&apos;occasion d&apos;assister à plusieurs reprises au{" "}
                   <a
@@ -216,7 +216,7 @@ export default function AboutMe() {
                 </span>.
               </h1>
 
-              <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
+              <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-gray-300">
                 <p className={cn(poppins.className)}>
                   J&apos;ai toujours été fasciné par l’art de transformer un espace en un lieu chaleureux et harmonieux.
                   Que ce soit par le choix des couleurs, l’agencement du mobilier ou les petits détails décoratifs,

@@ -12,7 +12,7 @@ export default function MyQRCode() {
         p-3
       ">
       <SVG
-        text="https://franc-stevesme.vercel.app/steves_franc_t_cv.pdf"
+        text="https://stevesworks.dev//steves_franc_t_cv.pdf"
         
         options={{
           margin: 2,
