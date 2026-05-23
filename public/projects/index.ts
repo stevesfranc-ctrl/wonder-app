@@ -253,7 +253,7 @@ export  const experiences: Experience[] = [
   {
     id: 1,
     company: "ISDG-SARL",
-    role: "Développeusr frontend",
+    role: "Développeur frontend",
     startDate: "Septembre 2021",
     endDate: "Juin 2023",
     logo: "/projects/isdg.jpeg",
@@ -262,7 +262,7 @@ export  const experiences: Experience[] = [
   {
     id: 2,
     company: "Mounir-Holding",
-    role: "Développeuse fullStack",
+    role: "Développeur fullStack",
     startDate: "Septembre 2023",
     endDate: "Janvier 2024",
     logo: "/projects/mounir.jpeg",
@@ -291,7 +291,7 @@ export  const experiences: Experience[] = [
       {
     id: 5,
     company: "NebulaGeek",
-    role: "Team Lead",
+    role: "Tech Lead",
     startDate: "Juin 2025",
     endDate: "Août 2025",
     logo: "/projects/cropped-NebulaGeek.png",

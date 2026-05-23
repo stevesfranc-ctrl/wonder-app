@@ -137,7 +137,7 @@ export default function AboutMe() {
                 </p>
                 <div>
                   <a
-                    href="/"
+                    href="https://kerima-app.vercel.app/"
                     className="
     inline-flex
     items-center

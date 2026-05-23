@@ -9,11 +9,11 @@ export const Hero = () => {
       <div className=" text-white flex-1">
         <HeroContent />
         <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
-          <p>
+          <p className=" italic">
             👋🏾 Salut, je suis &nbsp;<span className="font-medium text-white">Steves Franc</span>,
             Software Engineer passionné de technologies, avec une vraie capacité à concevoir des applications solides, modernes et maintenables, aussi bien côté front-end que back-end.
           </p>
-          <p>
+          <p className=" italic">
             Je suis en parallèle, &nbsp;<span className="font-medium text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-cyan-500">
               Fintech Analyste
             </span>

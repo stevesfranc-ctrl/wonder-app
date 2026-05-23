@@ -41,9 +41,8 @@ export default function MyWorkPage() {
                 </p>
                 <div>
                   <a
-                    href="/steves_franc_t_cv.pdf"
-                    download
-                    className="
+                    href="https://kerima-app.vercel.app"
+                     className="
     inline-flex
     items-center
     justify-center
