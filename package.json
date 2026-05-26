@@ -79,7 +79,7 @@
     "react-icons": "^5.0.1",
     "react-intersection-observer": "^9.5.3",
     "swiper": "^12.0.2",
-    "tailwind-merge": "^2.2.0",
+    "tailwind-merge": "^3.4.0",
     "tailwind-scrollbar-hide": "^4.0.0",
     "three": "^0.160.0"
   },
