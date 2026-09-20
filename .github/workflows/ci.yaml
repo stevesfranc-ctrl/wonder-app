@@ -1,4 +1,4 @@
-name: Next.js CI
+name: Steves-portfolio CI
 
 on:
   push:
@@ -7,23 +7,33 @@ on:
     branches: ["main", "develop"]
 
 concurrency:
-  group: next-ci-${{ github.ref }}
+  group: steves-portfolio-${{ github.ref }}
   cancel-in-progress: true
 
 permissions:
   contents: read
 
 jobs:
-  ci:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup nodejs environnement
+        uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "npm"
 
-      - run: npm ci
-      - run: npm run lint
-      - run: npm run build
+      - name: Install dependances
+        run: npm ci
+
+      - name:  Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build
