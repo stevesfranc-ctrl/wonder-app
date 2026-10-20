@@ -1,3 +1,5 @@
+import { caveat } from "@/app/fonts";
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -40,11 +42,11 @@ export const ProjectCard = ({
           leading-tight
         "
           >
-            <span className=" font-semibold text-2xl developer leading-loose">
+            <span className={cn("font-semibold text-3xl developer leading-loose", caveat.className)}>
               {title}
             </span>
           </h1>
-          <p className="space-y-4 text-[13px] leading-[1.5rem] text-zinc-600 dark:text-zinc-400 mt-2 ">
+          <p className="space-y-4 text-[14px] leading-[1.5rem dark:text-zinc-400 mt-2 text-[#919294]">
             {description}
 
             <Link

@@ -17,6 +17,7 @@ const config: Config = {
         heading: [
           "var(--font-euclid)",
           "var(--font-kugile)",
+          "var(--font-caveat)",
           "ui-sans-serif",
           "system-ui",
           "sans-serif",

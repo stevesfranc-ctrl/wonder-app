@@ -8,6 +8,8 @@ import {
   slideInFromRight,
   slideInFromTop,
 } from "@/lib/motion";
+import { cn } from "@/lib/utils";
+import { caveat } from "@/app/fonts";
 
 export const SkillText = () => {
   return (
@@ -24,14 +26,14 @@ export const SkillText = () => {
     leading-tight
   "
       >
-        <span className="developer text-3xl font-semibold leading-normal text-white">
+        <span className={cn("developer text-4xl font-semibold leading-normal text-white", caveat.className)}>
           Projets et Collaborations
         </span>
         .
       </h1>
 
-      <p className="mt-8 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
-        J&apos;ai eu l&apos;occasion de travailler sur plusieurs projets passionnants, notamment dans le domaine de la fintech.
+      <p className="mt-8 space-y-4 text-base leading-[1.85rem] text-[#919294]">
+        Découvrez une sélection de projets auxquels j&apos;ai contribué, de la conception d&apos;architectures logicielles à la mise en œuvre de solutions robustes et évolutives, notamment dans les domaines de la fintech, des microservices et des applications cloud-native.
       </p>
 
     </div>

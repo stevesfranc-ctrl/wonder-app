@@ -8,7 +8,7 @@ import { siteConfig } from "@/config";
 import { cn } from "@/lib/utils";
 
 import "./globals.css";
-import { euclid, kugile } from "./fonts";
+import { caveat, euclid, kugile } from "./fonts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,16 +24,13 @@ export default function RootLayout({ children }: PropsWithChildren) {
       <body
         className={cn(
           "bg-[#030014] overflow-y-scroll overflow-x-hidden w-full max-w-6xl mx-auto px-4  md:max-w-6xl flex-1  !scrollbar-hide",
-          inter.className,
-          euclid.variable,
-          kugile.variable
-        )}
+          inter.className)}
       >
         {/* <StarsCanvas /> */}
 
         <Navbar />
 
-                <div
+        <div
           className="
       fixed
       -inset-6
@@ -48,14 +45,13 @@ export default function RootLayout({ children }: PropsWithChildren) {
     "
         />
 
-        <div    className={cn(
+        <div className={cn(
           " fixed top-0 bottom-0 right-0 left-0 z-50 overflow-y-scroll overflow-x-hidden w-full max-w-6xl mx-auto px-4  md:max-w-6xl flex-1  !scrollbar-hide",
           inter.className,
           euclid.variable,
-          kugile.variable
+          kugile.variable,
         )}>
-                  {children}
-
+          {children}
         </div>
       </body>
     </html>

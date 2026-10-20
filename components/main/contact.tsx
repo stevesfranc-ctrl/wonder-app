@@ -1,3 +1,5 @@
+import { caveat } from "@/app/fonts";
+import { cn } from "@/lib/utils";
 import React from "react";
 
 type ContactProps = {
@@ -74,14 +76,14 @@ const ContactSection: React.FC<ContactProps> = ({
           leading-normal
         "
         >
-          <span className="developer leading-loose">
+          <span className={cn("developer leading-loose", caveat.className)}>
             Disponible pour une collaboration
           </span>{" "}
         </h3>
 
         <p
           className="
-       space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400 mt-4 md:mt-0
+       space-y-4 text-[14px] leading-[1.85rem] text-[#919294] mt-4 md:mt-0
       "
         >
           Je travaille sur des projets à forte exigence technique :

@@ -34,3 +34,25 @@ export const kugile = localFont({
   display: "swap",
 });
 
+export const caveat = localFont({
+  src: [
+    {
+      path: "../public/fonts/Caveat/Caveat-VariableFont_wght.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Caveat/Caveat-VariableFont_wght.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Caveat/Caveat-VariableFont_wght.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-caveat",
+  display: "swap",
+});
+

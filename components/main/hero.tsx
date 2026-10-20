@@ -2,19 +2,21 @@
 
 import { HeroContent } from "@/components/sub/hero-content";
 import MyQRCode from "./QRCode";
+import { cn } from "@/lib/utils";
+import { caveat } from "@/app/fonts";
 
 export const Hero = () => {
   return (
-    <div id="about-me" className="relative flex-col md:flex-row !h-full w-full flex gap-10 md:gap-20 items-center pt-24 md:pt-8 justify-center overflow-hidden pb-10">
+    <div id="about-me" className="relative flex-col md:flex-row !h-full w-full flex gap-10 md:gap-4 items-center pt-24 md:pt-8 justify-center overflow-hidden pb-10 font-heading">
       <div className=" text-white flex-1">
         <HeroContent />
-        <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
-          <p className=" italic">
-            👋🏾 Salut, je suis &nbsp;<span className="font-medium text-white">Steves Franc</span>,
+        <div className="mt-8 space-y-4 text-base leading-[1.85rem] text-[#919294] dark:text-zinc-400">
+          <p className="  font-caveat">
+            👋🏾 Salut, je suis &nbsp;<span className={cn("font-medium text-[20px]", caveat.className)}>Steves Franc</span>,
             Software Engineer passionné de technologies, avec une vraie capacité à concevoir des applications solides, modernes et maintenables, aussi bien côté front-end que back-end.
           </p>
           <p className=" italic">
-            Je suis en parallèle, &nbsp;<span className="font-medium text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-cyan-500">
+            Je suis en parallèle, &nbsp;<span className={cn("font-medium text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 text-[20px] to-cyan-500", caveat.className)}>
               Fintech Analyste
             </span>
             , je comprends les enjeux financiers, réglementaires et technologiques du secteur (paiements, data, conformité, produits financiers).
