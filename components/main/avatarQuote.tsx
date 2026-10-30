@@ -13,9 +13,9 @@ export default function AvatarQuote() {
       </div>
 
       {/* Avatar */}
-  <div className="w-[50px] h-[50px] rounded-full border-2 border-white md:-mr-[-30px] ml-0">
+  <div className=" md:-mr-[-30px] ml-0">
               <img
-                src="/profil.JPG"
+                src="/steve'swork.png"
                 alt="Logo"
                 draggable={false}
                 className="cursor-pointer rounded-full object-cover w-full h-full"

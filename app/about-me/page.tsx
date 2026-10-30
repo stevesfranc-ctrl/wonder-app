@@ -114,10 +114,10 @@ export default function AboutMe() {
                 className=" mt-5 font-heading text-3xl font-bold tracking-tight  text-white sm:text-5xl leading-tight  
         "
               >
-                <span className={ cn(caveat.className, " text-7xl")}>
+                <span className={ cn(caveat.className, "md:text-7xl text-4xl")}>
                   Steves c&apos;est aussi une passion
                 </span>{" "}
-                <span className={ cn(caveat.className, " text-7xl")}>
+                <span className={ cn(caveat.className, " md:text-7xl text-4xl")}>
                   pour des véhicules de luxe
                 </span>.
               </h1>
@@ -209,10 +209,10 @@ export default function AboutMe() {
                 className=" mt-5 font-heading text-3xl font-bold tracking-tight  text-white sm:text-5xl leading-tight 
         "
               >
-                <span className={cn(caveat.className, " text-7xl")}>
+                <span className={cn(caveat.className, " md:text-7xl text-4xl")}>
                   Steves, c&apos;est aussi une passion
                 </span>{" "}
-                <span className={cn(caveat.className, " text-7xl text-style")}>
+                <span className={cn(caveat.className, " md:text-7xl text-4xl text-style")}>
                   pour la décoration intérieure
                 </span>
               </h1>

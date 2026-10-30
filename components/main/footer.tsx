@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 import { FOOTER_DATA } from "@/public/projects";
+import { cn } from "@/lib/utils";
+import { caveat } from "@/app/fonts";
 
 export const Footer = () => {
   return (
@@ -11,15 +13,15 @@ export const Footer = () => {
 
         <div className="mt-8 text-start space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
           <p>
-            <span className="font-normal text-gray-400 font-euclid">© {new Date().getFullYear()} Steves Franc T. Tous droits réservés.</span>,
+            <span className={cn("font-normal text-gray-400 font-euclid", caveat.className)}>© {new Date().getFullYear()} Steves Franc T. Tous droits réservés.</span>,
            </p> 
         </div>
 
       <ul className="my-6 flex gap-16">
-                <li><a href="https://www.linkedin.com/in/franc-steves-b99806232/" className="font-normal text-gray-400" aria-label="LinkedIn">LinkedIn</a></li>
+                <li><a href="https://www.linkedin.com/in/franc-steves-b99806232/" className={cn("font-normal text-gray-400 text-[18px]", caveat.className)} aria-label="LinkedIn">LinkedIn</a></li>
 
-        <li><a href="https://gitlab.com/francsteve31" className="font-normal text-gray-400" aria-label="YouTube">GitLab</a></li>
-        <li><a href="https://medium.com/@francsteves21" className="font-normal text-gray-400" aria-label="BlueSky">Medium</a></li>
+        <li><a href="https://gitlab.com/francsteve31" className={cn("font-normal text-gray-400 text-[18px]", caveat.className)} aria-label="YouTube">GitLab</a></li>
+        <li><a href="https://medium.com/@francsteves21" className={cn("font-normal text-gray-400 text-[18px]", caveat.className)} aria-label="BlueSky">Medium</a></li>
         {/* <li><a href="https://snty.link/community" className="font-normal text-gray-400" aria-label="Discord">Discord</a></li> */}
       </ul>
 

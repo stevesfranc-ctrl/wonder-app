@@ -14,11 +14,8 @@ export const Navbar = () => {
   const pathname = usePathname();
 
   return (
-
     <div className="h-auto relative w-auto">
-
       <div className=" hidden md:flex items-center relative   backdrop-blur-md z-[9999999999999999]  ">
-
         {/* Navbar Container */}
         <div className=" hidden h-full md:flex items-center justify-between max-w-full md:max-w-6xl mx-auto flex-1 ">
           {/* Logo + Name */}
@@ -26,14 +23,13 @@ export const Navbar = () => {
             href="/"
             className="flex items-center p-0"
           >
-
             {/* <AvatarQuote /> */}
-            <div className=" h-[60px] rounded-full md:-mr-[-30px] ml-0">
+            <div className=" h-[60px]  md:-mr-[-30px] ml-0">
               <img
                 src="/steve'swork.png"
                 alt="Logo"
                 draggable={false}
-                className="cursor-pointer rounded-full object-cover w-full h-full"
+                className="cursor-pointer  object-cover w-full h-full"
               />
             </div>
           </Link>
@@ -47,9 +43,9 @@ export const Navbar = () => {
 
                   className={
                     cn(`px-4 py-2 transition-colors cursor-pointer text-sm font-normal md:mx-0 mx-2 text-nowrap ${link.link === pathname
-                    ? "text-white font-[600px]"
-                    : "text-gray-600 hover:text-white"
-                    }`, euclid.className)
+                      ? "text-white font-[600px]"
+                      : "text-gray-600 hover:text-white"
+                      }`, euclid.className)
                   }
                 >
                   {link.label}
@@ -76,7 +72,7 @@ export const Navbar = () => {
     transition
     duration-200
     text-sm
-  `,  euclid.className)}
+  `, euclid.className)}
             >
               ⬇️ &nbsp; Télécharger CV
             </a>
