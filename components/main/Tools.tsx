@@ -1,6 +1,8 @@
 "use client";
 
 
+import { caveat } from "@/app/fonts";
+import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { Wrench, Code2, Smartphone, Palette, Cloud } from "lucide-react";
 
@@ -70,23 +72,12 @@ export default function DailyToolsSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-           className="
-          mt-5
-          font-heading
-          text-4xl
-          font-bold
-          tracking-tight
-          
-          text-white
-          sm:text-5xl
-          leading-tight
-          text-center
-        "
-              
+          className={cn("mt-5 font-heading text-4xl font-bold tracking-tight text-white sm:text-5xl leading-tight text-center ", caveat.className)}
+
         >
           Mes outils du quotidien
 
-          
+
         </motion.h2>
 
         <p className="text-center text-gray-400 max-w-2xl mx-auto mt-6">
@@ -102,12 +93,11 @@ export default function DailyToolsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.05 }}
             >
-           <div className="h-full rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 p-6 shadow-lg hover:shadow-purple-500/20 transition-all">
-  <tool.icon className="h-10 w-10 text-purple-400" />
-  <h3 className="text-xl font-semibold mt-4">{tool.name}</h3>
-  <p className="text-sm text-gray-400 mt-2">{tool.description}</p>
-</div>
-
+              <div className="h-full rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 p-6 shadow-lg hover:shadow-purple-500/20 transition-all">
+                <tool.icon className="h-10 w-10 text-purple-400" />
+                <h3 className={cn("text-xl font-semibold mt-4", caveat.className)}>{tool.name}</h3>
+                <p className="text-sm text-gray-400 mt-2">{tool.description}</p>
+              </div>
             </motion.div>
           ))}
         </div>

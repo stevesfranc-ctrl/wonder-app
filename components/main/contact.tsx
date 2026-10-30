@@ -87,7 +87,7 @@ const ContactSection: React.FC<ContactProps> = ({
       "
         >
           Je travaille sur des projets à forte exigence technique :
-          <span className="text-slate-100 font-medium">
+          <span className=" font-medium">
             {" "}API robustes, fintech et infrastructures scalables
           </span>.
           J’interviens aussi bien en renfort qu’en prise en charge complète

@@ -18,34 +18,6 @@ export const Projects = () => {
           />
         ))}
       </div>
-
-      <div className="mt-8">
-        <div className="  flex flex-row gap-5 ">
-          <a
-            href="/steves_franc_t_cv.pdf"
-            download
-            className="
-    inline-flex
-    items-center
-    justify-center
-    h-[42px]
-    px-6
-    text-md
-    text-gray-200
-    bg-[rgba(3,0,20,0.37)]
-    border border-[rgba(112,66,248,0.38)]
-    rounded-full
-    hover:bg-[rgba(112,66,248,0.15)]
-    transition
-    duration-200
-    text-sm
-  "
-          >
-            Voir plus
-          </a>
-        </div>
-      </div>
-      
     </section>
   );
 };

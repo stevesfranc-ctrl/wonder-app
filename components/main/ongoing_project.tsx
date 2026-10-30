@@ -1,3 +1,4 @@
+import { caveat } from "@/app/fonts";
 import { cn } from "@/lib/utils";
 import { Poppins } from "next/font/google";
 
@@ -26,7 +27,7 @@ export const MyProjects = () => {
           leading-tight
         "
                     >
-                        <span className="developer md:leading-loose leading-normal">
+                        <span className={cn("developer md:leading-loose leading-normal", caveat.className)}>
                             ZuidPay Api
                         </span>
                     </h1>
@@ -44,8 +45,7 @@ export const MyProjects = () => {
                         </p>
 
                         <a
-                            href="/steves_franc_t_cv.pdf"
-                            download
+                             download
                             className="
     inline-flex
     items-center
@@ -65,7 +65,7 @@ export const MyProjects = () => {
     text-sm
   "
                         >
-                            Je veux tester l&apos;API
+                            Bientôt disponible
                         </a>
 
 
@@ -97,9 +97,6 @@ export const MyProjects = () => {
               opacity-30
             "
                 />
-
-
-
             </div>
 
             <div className="">

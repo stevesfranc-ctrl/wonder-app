@@ -6,6 +6,8 @@ import { NAV_LINKS } from "@/public/projects";
 import MenuItemComponent from "./menuItemComponent";
 import { usePathname } from "next/navigation";
 import AvatarQuote from "./avatarQuote";
+import { caveat, euclid, kugile } from "@/app/fonts";
+import { cn } from "@/lib/utils";
 
 export const Navbar = () => {
 
@@ -15,7 +17,7 @@ export const Navbar = () => {
 
     <div className="h-auto relative w-auto">
 
-      <div className=" hidden  md:flex items-center fixed top-0 left-0 right-0 px-4  backdrop-blur-md z-[9999999999999999] pt-[15px] md:px-20">
+      <div className=" hidden md:flex items-center relative   backdrop-blur-md z-[9999999999999999]  ">
 
         {/* Navbar Container */}
         <div className=" hidden h-full md:flex items-center justify-between max-w-full md:max-w-6xl mx-auto flex-1 ">
@@ -26,9 +28,9 @@ export const Navbar = () => {
           >
 
             {/* <AvatarQuote /> */}
-            <div className="w-[50px] h-[50px] rounded-full border-2 border-white md:-mr-[-30px] ml-0">
+            <div className=" h-[60px] rounded-full md:-mr-[-30px] ml-0">
               <img
-                src="/profil.JPG"
+                src="/steve'swork.png"
                 alt="Logo"
                 draggable={false}
                 className="cursor-pointer rounded-full object-cover w-full h-full"
@@ -42,10 +44,13 @@ export const Navbar = () => {
                 <Link
                   key={link.label}
                   href={link.link}
-                  className={`px-4 py-2 transition-colors cursor-pointer text-sm font-normal md:mx-0 mx-2 text-nowrap ${link.link === pathname
-                    ? "text-white font-bold"
+
+                  className={
+                    cn(`px-4 py-2 transition-colors cursor-pointer text-sm font-normal md:mx-0 mx-2 text-nowrap ${link.link === pathname
+                    ? "text-white font-[600px]"
                     : "text-gray-600 hover:text-white"
-                    }`}
+                    }`, euclid.className)
+                  }
                 >
                   {link.label}
                 </Link>
@@ -56,7 +61,7 @@ export const Navbar = () => {
             <a
               href="/steves_franc_t_cv.pdf"
               download
-              className="
+              className={cn(`
     inline-flex
     items-center
     justify-center
@@ -71,7 +76,7 @@ export const Navbar = () => {
     transition
     duration-200
     text-sm
-  "
+  `,  euclid.className)}
             >
               ⬇️ &nbsp; Télécharger CV
             </a>

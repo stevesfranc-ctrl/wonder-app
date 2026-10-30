@@ -5,6 +5,7 @@ import { MyProjects } from "@/components/main/ongoing_project";
 import DailyToolsSection from "@/components/main/Tools";
 import { poppins } from "@/public/projects";
 import { cn } from "@/lib/utils";
+import { caveat } from "../fonts";
 
 export default function MyWorkPage() {
   return (
@@ -15,28 +16,18 @@ export default function MyWorkPage() {
           <div className=" text-white flex-1">
             <div className="flex h-full w-full flex-col items-start justify-center mt-[20px] z-[20]">
               <h1
-                className="
-          mt-5
-          font-heading
-          text-4xl
-          font-bold
-          tracking-tight
-          
-          text-white
-          sm:text-5xl
-          leading-tight
-        "
+                className={cn("mt-5 font-heading text-6xl font-bold tracking-tight text-white leading-tight", caveat.className)}
               >
-                <span className="developer md:leading-loose leading-normal">
+                <span className={cn('md:leading-loose leading-normal')}>
                   Kerima
-                </span>{" "} <br />
-                <span className="community">
-                  Cooming soon
-                </span>.
+                </span> {" "} {" "}
+                <span className="text-style">
+                  Cooming soon.
+                </span>
               </h1>
 
-              <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
-                <p className={cn(poppins.className)}>
+              <div className=" space-y-4 text-base leading-[1.85rem] text-zinc-600 dark:text-zinc-400">
+                <p className={cn(poppins.className, 'text-[#919194]')}>
                   C&apos;est une plateforme qui transforme vos déplacements quotidiens en opportunités concrètes. Grâce à la technologie et l&apos;innovation, chaque trajet devient une expérience enrichissante, rapide et sécurisée.
                 </p>
                 <div>
@@ -80,7 +71,6 @@ export default function MyWorkPage() {
             />
           </div>
           <div className=" mt-auto pt-15 h-full text-lg leading-relaxed flex-1  flex flex-col items-center justify-center">
-
             <div className="absolute inset-0 top-0 bottom-0 right-0  -z-10 opacity-50">
               <img
                 src="/projects/travel-girl.png"
@@ -89,8 +79,6 @@ export default function MyWorkPage() {
               />
             </div>
           </div>
-
-
         </div>
 
         <div className="w-full  mt-20 ">

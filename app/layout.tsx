@@ -23,7 +23,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
     <html lang="en">
       <body
         className={cn(
-          "bg-[#030014] overflow-y-scroll overflow-x-hidden w-full max-w-6xl mx-auto px-4  md:max-w-6xl flex-1  !scrollbar-hide",
+          "bg-[#030014] overflow-y-auto !scrollbar-hide w-full max-w-6xl mx-auto px-4  md:max-w-6xl flex-1",
           inter.className)}
       >
         {/* <StarsCanvas /> */}
@@ -46,7 +46,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
         />
 
         <div className={cn(
-          " fixed top-0 bottom-0 right-0 left-0 z-50 overflow-y-scroll overflow-x-hidden w-full max-w-6xl mx-auto px-4  md:max-w-6xl flex-1  !scrollbar-hide",
+          " fixed top-0 bottom-0 right-0 left-0 z-50 overflow-y-scroll overflow-x-hidden w-full max-w-6xl mx-auto px-4  md:max-w-6xl flex-1  !scrollbar-hide ",
           inter.className,
           euclid.variable,
           kugile.variable,

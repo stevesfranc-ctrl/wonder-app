@@ -1,13 +1,5 @@
 "use client";
 
-import { SparklesIcon } from "@heroicons/react/24/solid";
-import { motion } from "framer-motion";
-
-import {
-  slideInFromLeft,
-  slideInFromRight,
-  slideInFromTop,
-} from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import { caveat } from "@/app/fonts";
 
@@ -35,7 +27,6 @@ export const SkillText = () => {
       <p className="mt-8 space-y-4 text-base leading-[1.85rem] text-[#919294]">
         Découvrez une sélection de projets auxquels j&apos;ai contribué, de la conception d&apos;architectures logicielles à la mise en œuvre de solutions robustes et évolutives, notamment dans les domaines de la fintech, des microservices et des applications cloud-native.
       </p>
-
     </div>
   );
 };

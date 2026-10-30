@@ -73,12 +73,12 @@ html {
   }
 }
 
-.developer {
-  /* @apply text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-cyan-500; */
+.text-style {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-cyan-500;
 }
 
 .community {
-  /* @apply text-zinc-500 dark:text-zinc-400; */
+  @apply text-zinc-500 dark:text-zinc-400;
 }
 
 html {
@@ -99,4 +99,15 @@ body::-webkit-scrollbar {
 body {
   scrollbar-width: none !important; /* supprime la scrollbar verticale */
   -ms-overflow-style: none !important; /* IE 10+ */
+}
+
+/* Chrome, Safari, Edge */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Firefox, IE et Edge */
+.scrollbar-hide {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
 }

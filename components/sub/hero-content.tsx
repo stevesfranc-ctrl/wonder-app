@@ -9,8 +9,8 @@ export const HeroContent = () => {
       <h1
         className={cn(" mt-5 font-caveat text-4xl font-bold tracking-tight text-zinc-100 sm:text-5xl leading-tight")}
       >
-        <span className={cn(" md:leading-loose leading-normal text-[50px] font-[700]", caveat.className)}>
-          Architecte logicielles et Fintech Analyste
+        <span className={cn(" md:leading-loose leading-normal md:text-[65px]  font-[700]", caveat.className)}>
+              Architecte logiciel & Analyste Fintech
           </span>
       </h1>
     </div>

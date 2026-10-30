@@ -5,15 +5,14 @@ export default function MyQRCode() {
 
   return (
     <div className="
-        h-full
-        w-full
+        min-h-[200px]
+        min-w-[200px]
         rounded-lg
         bg-white
         p-3
       ">
       <SVG
         text="https://steveswork.tech//steves_franc_t_cv.pdf"
-        
         options={{
           margin: 2,
           width: 200,

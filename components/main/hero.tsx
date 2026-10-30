@@ -11,11 +11,10 @@ export const Hero = () => {
       <div className=" text-white flex-1">
         <HeroContent />
         <div className="mt-8 space-y-4 text-base leading-[1.85rem] text-[#919294] dark:text-zinc-400">
-          <p className="  font-caveat">
-            👋🏾 Salut, je suis &nbsp;<span className={cn("font-medium text-[20px]", caveat.className)}>Steves Franc</span>,
-            Software Engineer passionné de technologies, avec une vraie capacité à concevoir des applications solides, modernes et maintenables, aussi bien côté front-end que back-end.
+          <p className="font-caveat text-[15px]">
+            Je suis Software Engineer spécialisé en DevOps, Cloud et architecture logicielle Java. Passionné par les technologies, je conçois des solutions modernes, performantes, sécurisées et évolutives, tout en intégrant les enjeux de la Fintech.
           </p>
-          <p className=" italic">
+          <p className=" italic text-[15px]">
             Je suis en parallèle, &nbsp;<span className={cn("font-medium text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 text-[20px] to-cyan-500", caveat.className)}>
               Fintech Analyste
             </span>
@@ -41,12 +40,13 @@ export const Hero = () => {
       <div className=" mt-auto pt-15 h-full text-lg leading-relaxed flex-1 max-w-[300px] flex flex-col items-center justify-center">
 
         <div className="absolute inset-0 top-0 bottom-0 right-0 left-0 -z-10 opacity-50">
-          <img
+          {/* <img
             src="/svg/fintech-animated.svg"
             alt=""
             className="w-full h-full object-cover"
-          />
+          /> */}
         </div>
+
 
 
         <div className="relative inline-flex items-center justify-center z-50">

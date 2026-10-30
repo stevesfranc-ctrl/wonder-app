@@ -5,6 +5,7 @@ import { Swipper } from "@/components/sub/swiper";
 import { poppins } from "@/public/projects";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import { caveat } from "../fonts";
 
 export default function AboutMe() {
   return (
@@ -113,10 +114,10 @@ export default function AboutMe() {
                 className=" mt-5 font-heading text-3xl font-bold tracking-tight  text-white sm:text-5xl leading-tight  
         "
               >
-                <span className="developer ">
+                <span className={ cn(caveat.className, " text-7xl")}>
                   Steves c&apos;est aussi une passion
                 </span>{" "}
-                <span className="community">
+                <span className={ cn(caveat.className, " text-7xl")}>
                   pour des véhicules de luxe
                 </span>.
               </h1>
@@ -208,12 +209,12 @@ export default function AboutMe() {
                 className=" mt-5 font-heading text-3xl font-bold tracking-tight  text-white sm:text-5xl leading-tight 
         "
               >
-                <span className="developer ">
+                <span className={cn(caveat.className, " text-7xl")}>
                   Steves, c&apos;est aussi une passion
                 </span>{" "}
-                <span className="community">
+                <span className={cn(caveat.className, " text-7xl text-style")}>
                   pour la décoration intérieure
-                </span>.
+                </span>
               </h1>
 
               <div className="mt-10 space-y-4 text-base leading-[1.85rem] text-gray-300">

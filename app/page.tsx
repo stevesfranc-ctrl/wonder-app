@@ -8,7 +8,7 @@ import { Projects } from "@/components/main/projects";
 export default function Home() {
   return (
     <main className=" h-screen w-full overflow-y-scroll overflow-x-hidden">
-      <div className="flex flex-col  ">
+      <div className="flex flex-col  !overflow-y-auto !scrollbar-hide">
         <Hero />
         <Skills />
         {/* <Embition /> */}
