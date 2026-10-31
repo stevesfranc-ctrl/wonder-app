@@ -454,6 +454,10 @@ export const NAV_LINKS = [
     label: "A propos",
     link: "/about-me",
   },
+    {
+    label: "Blog",
+    link: "/bloc",
+  },
   {
     label: "Mes travaux",
     link: "/my-work",
